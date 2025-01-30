@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: STARKLA-container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: starkla
+      MYSQL_USER: my_user
+      MYSQL_PASSWORD: my_password
+    ports:
+    - 3306:3306
+    volumes:
+    - my-db:/var/lib/mysql
+    
+volumes:
+  my-db:
