@@ -17,73 +17,38 @@ const MyNFTs: NextPage = () => {
   const [isMinting, setIsMinting] = useState(false);
   const [lastMintedTokenId, setLastMintedTokenId] = useState<number>();
 
-
-  //mintear el nft
-  const { sendAsync: mintItem } = useScaffoldWriteContract({
-    contractName: "YourCollectible",
-    functionName: "mint_item",
-    args: [connectedAddress, ""],
+  const { data: tokenIdCounter } = useScaffoldReadContract({
+    contractName: "YourERC1155",
+    functionName: "next_token_id",
   });
 
-  //se actualiza
-  const { data: tokenIdCounter, refetch } = useScaffoldReadContract({
-    contractName: "YourCollectible",
-    functionName: "current",
-    watch: true,
+  const { writeAsync: mintItem } = useScaffoldWriteContract({
+    contractName: "YourERC1155",
+    functionName: "mint",
   });
 
   const handleMintItem = async () => {
     setStatus("Minting NFT");
     setIsMinting(true);
-    const tokenIdCounterNumber = Number(tokenIdCounter);
 
-    // circle back to the zero item if we've reached the end of the array
-    if (
-      tokenIdCounter === undefined ||
-      tokenIdCounterNumber === lastMintedTokenId
-    ) {
-      setStatus("Mint NFT");
-      setIsMinting(false);
-      notification.warning(
-        "Cannot mint the same token again, please wait for the new token ID",
-      );
-      return;
-    }
-
-
-
-
-    //***************************************************/
-                //IMportante//
-     //***************************************************/
-    // nota usar imagenes .png obligatorio
-    //aqui va por el array moviendose y subiendo la data de cada imagen desde el nftsMetadata.ts
-    //esto se refiere a la posicion en los metadatos
-    const currentTokenMetaData =
-      nftsMetadata[5]; // elige la posicion de donde queramos extraer los datos del ipfs o el NFT
-    const notificationId = notification.loading("Uploading to IPFS");
     try {
-      const uploadedItem = await addToIPFS(currentTokenMetaData);
+      const currentTokenMetaData = nftsMetadata[0];
+      const notificationId = notification.loading("Uploading to IPFS");
 
-      // First remove previous loading notification and then show success notification
+      const uploadedItem = await addToIPFS(currentTokenMetaData);
       notification.remove(notificationId);
       notification.success("Metadata uploaded to IPFS");
 
-      
-      //donde minteamos
       await mintItem({
-        args: [connectedAddress, uploadedItem.path],
-      });
-      setStatus("Updating NFT List");
-      refetch();
-      setLastMintedTokenId(tokenIdCounterNumber);
+        args: [connectedAddress, 1, uploadedItem.path], 
+
+      setStatus("NFT Minted!");
       setIsMinting(false);
     } catch (error) {
-      notification.remove(notificationId);
-
       console.error(error);
-      setStatus("Mint NFT");
+      setStatus("Mint Failed");
       setIsMinting(false);
+      notification.error("Failed to mint NFT");
     }
   };
 
