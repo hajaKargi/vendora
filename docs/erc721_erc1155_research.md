@@ -80,5 +80,113 @@ Both ERC721 and ERC1155 require unique interface identifiers to ensure compatibi
 A single contract that integrate both ERC1155 and ERC721 token standards can be tricky and complex. A few ways this may be achieved include:
 - Setting a token type with unique identification number that can be dynamically passed to each contract call. The function interactions and the value to be returned (if any) depend on the token type detected.
 
-(not conclusive yet)...
+Implementation using this pattern can be done, as this has already been coded out in the `erc1155_erc721_research.cairo` file which can be found here: `Scaffold`::`packages`::`snfoundry`::`contracts`::`src`::`mock_contracts`::`erc1155_erc721_research.cairo`.
 
+## **1. Contract Structure Possibilities**
+The contract is designed to support both **ERC721** (non-fungible tokens) and **ERC1155** (semi-fungible tokens) token standards in a unified manner. Key structural features include:
+
+### **Unified Storage**
+- The contract uses a single storage structure (`Storage`) to manage both ERC721 and ERC1155 token data:
+  - **ERC721 Storage**:
+    - `ERC721_name`: Token name.
+    - `ERC721_symbol`: Token symbol.
+    - `ERC721_owners`: Mapping of token IDs to owner addresses.
+    - `ERC721_balances`: Mapping of owner addresses to token balances.
+    - `ERC721_token_approvals`: Mapping of token IDs to approved addresses.
+    - `ERC721_operator_approvals`: Mapping of owner-operator pairs to approval status.
+    - `ERC721_base_uri`: Base URI for token metadata.
+  - **ERC1155 Storage**:
+    - `ERC1155_balances`: Mapping of token ID-owner pairs to balances.
+    - `ERC1155_operator_approvals`: Mapping of owner-operator pairs to approval status.
+    - `ERC1155_uri`: URI for ERC1155 token metadata.
+  - **Token Type Mapping**:
+    - `token_types`: Mapping of token IDs to their type (`721` for ERC721, `1155` for ERC1155).
+
+### **Modular Design**
+- The contract is divided into modules for better organization:
+  - **CombinedTokenImpl**: Core functionality for both ERC721 and ERC1155 tokens.
+  - **TokenMetadataImpl**: Metadata-related functions.
+  - **InternalImpl**: Internal helper functions for transfers, approvals, and checks.
+
+### **Extensibility**
+- The contract is designed to be extensible, allowing additional functionality to be added through custom logic.
+
+---
+
+## **2. Interface Requirements**
+
+The contract adheres to the following interfaces:
+
+### **ERC721 Interface**
+- `IERC721Dispatcher`: Implements functions like `transfer_from`, `approve`, and `owner_of`.
+- `IERC721Metadata`: Provides metadata functions like `name`, `symbol`, and `token_uri`.
+- `IERC721Receiver`: Ensures compatibility with contracts that can receive ERC721 tokens.
+
+### **ERC1155 Interface**
+- `IERC1155Dispatcher`: Implements functions like `safe_transfer_from`, `safe_batch_transfer_from`, and `balance_of_batch`.
+- `IERC1155MetadataURI`: Provides the `uri` function for ERC1155 tokens.
+- `IERC1155Receiver`: Ensures compatibility with contracts that can receive ERC1155 tokens.
+
+### **SRC5 Interface**
+- The contract uses the `SRC5Component` to manage interface support checks, ensuring that contracts implementing `IERC721Receiver` or `IERC1155Receiver` are properly recognized.
+
+---
+
+## **3. Receiver Function Compatibility**
+
+The contract ensures compatibility with receiver contracts through the following checks:
+
+### **ERC721 Receiver**
+- The `_check_on_erc721_received` function verifies if the recipient (`to`) supports the `IERC721Receiver` interface or is an account contract (supporting `ISRC6`).
+- If the recipient supports `IERC721Receiver`, the `on_erc721_received` function is called to confirm the transfer.
+
+### **ERC1155 Receiver**
+- The `_check_on_ERC1155_received` and `_check_on_ERC1155_batch_received` functions verify if the recipient supports the `IERC1155Receiver` interface or is an account contract.
+- If the recipient supports `IERC1155Receiver`, the `on_erc1155_received` or `on_erc1155_batch_received` function is called to confirm the transfer.
+
+### **Fallback to Account Contracts**
+- If the recipient does not support the receiver interfaces but is an account contract (supports `ISRC6`), the transfer is still allowed.
+
+---
+
+## **4. Token Transfer Mechanisms**
+
+The contract implements distinct transfer mechanisms for ERC721 and ERC1155 tokens:
+
+### **ERC721 Transfers**
+- Single-token transfers are handled by `transfer_from` and `safe_transfer_from`.
+- The `update_erc721` function updates the token ownership and emits a `Transfer` event.
+- The `safe_transfer_from` function ensures the recipient is either an account contract or supports the `IERC721Receiver` interface.
+
+### **ERC1155 Transfers**
+- Single and batch transfers are handled by `safe_transfer_from` and `safe_batch_transfer_from`.
+- The `update_erc1155` function updates token balances and emits either a `TransferSingle` or `TransferBatch` event.
+- The `update_with_acceptance_check` function ensures the recipient is either an account contract or supports the `IERC1155Receiver` interface.
+Both tokens can use `safe_transfer_from` as the function can detect token type automatically.
+
+### **Minting and Burning**
+- ERC721 tokens are minted using `mint` and `safe_mint`, which update the token ownership and emit a `Transfer` event.
+- ERC1155 tokens are minted using `mint_with_acceptance_check` and `batch_mint_with_acceptance_check`, which update token balances and emit `TransferSingle` or `TransferBatch` events.
+- Both token types can be burned using `burn` while `ERC1155` tokens use `batch_burn`.
+
+---
+
+## **5. Error Handling Approaches**
+
+The contract uses a robust error-handling mechanism to ensure safe and predictable behavior:
+
+### **Custom Errors**
+- The contract defines a set of custom errors (e.g., `UNAUTHORIZED`, `INVALID_RECEIVER`, `INSUFFICIENT_BALANCE`) to provide clear feedback when operations fail.
+
+### **Assertions**
+- Key operations are guarded by assertions to enforce requirements. For example:
+  - `assert(!to.is_zero(), Errors::INVALID_RECEIVER);` ensures the recipient is not the zero address.
+  - `assert(token_ids.len() == values.len(), Errors::INVALID_ARRAY_LENGTH);` ensures array lengths match for batch operations.
+
+### **Reentrancy Protection**
+- The contract follows the checks-effects-interactions pattern to minimize reentrancy risks. For example, state updates (e.g., balance adjustments) are performed before external calls to receiver contracts. However, more reentrancy checks is needed for beta or production use.
+
+### **Receiver Checks**
+- The contract verifies that recipient contracts implement the required receiver interfaces (`IERC721Receiver` or `IERC1155Receiver`) before proceeding with transfers. If the checks fail, the transfer is reverted with an appropriate error (e.g., `SAFE_TRANSFER_FAILED`).
+
+---
