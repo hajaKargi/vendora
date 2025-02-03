@@ -75,7 +75,7 @@ Both ERC721 and ERC1155 require unique interface identifiers to ensure compatibi
 |                          | cases                                       | assets, digital art, and fungible           |
 |                          |                                             | tokens                                      |
 
-## Implementation Study
+## Technical Architecture and Implementation Recommendations
 
 A single contract that integrate both ERC1155 and ERC721 token standards can be tricky and complex. A few ways this may be achieved include:
 - Setting a token type with unique identification number that can be dynamically passed to each contract call. The function interactions and the value to be returned (if any) depend on the token type detected.
@@ -190,3 +190,23 @@ The contract uses a robust error-handling mechanism to ensure safe and predictab
 - The contract verifies that recipient contracts implement the required receiver interfaces (`IERC721Receiver` or `IERC1155Receiver`) before proceeding with transfers. If the checks fail, the transfer is reverted with an appropriate error (e.g., `SAFE_TRANSFER_FAILED`).
 
 ---
+
+### Feasibility Report
+The combined `ERC721` and `ERC1155` token standard is feasible and offers significant advantages in terms of flexibility, gas efficiency, and interoperability. It is suited for projects that seek to support both non-fungible and semi-fungible tokens.
+
+However, for the limited time I had to brainstorm and implement this, the best idea I could think of was to use existing implementations for the two token standards; where possible same function can work for the two token standards, but in other cases the functions are unique for each standard.
+
+Using the existing implementations made sense for a few reasons, the most important of which was interoperability with existing tools, wallets, marketplaces and other NFT infrastructure. E.g, 
+   - The contract adheres to both ERC721 and ERC1155 interfaces, ensuring compatibility with existing tools, wallets, and marketplaces as I already mentioned.
+   - It also implements the `SRC5` interface for interface support checks, ensuring robust interoperability.
+
+   - The contract ensures compatibility with receiver contracts by implementing checks for `IERC721Receiver` and `IERC1155Receiver`.
+   - Fallback to account contracts (supporting `ISRC6`) is provided for enhanced flexibility.
+   - Even though the storage is structured to manage the two token standards at once, the variables are named in accordance to the official naming styles used for the both token standards to ensure compatibility.
+   - The function signatures are compatible with the conventional function signatures for the both standards.
+
+## **Conclusion**
+
+The combined ERC1155 and ERC721 token standard represents a significant step forward in token standardization, offering a flexible and unified solution for managing both non-fungible and semi-fungible tokens within a single contract. By merging the strengths of ERC721 and ERC1155, this research demonstrates the feasibility of a hybrid approach that reduces deployment complexity, optimizes gas costs, and enhances interoperability.
+
+If more time and resources are dedicated to advancing this research, it has the potential to give rise to a **new, unique token standard**. This standard would introduce its own `SRC5 Interface ID`, complete with robust implementations that define how it interacts with the broader token ecosystem. Such a standard could revolutionize token management by offering developers a versatile and efficient framework for creating and managing diverse token types, paving the way for innovative use cases and greater adoption across the blockchain community.
