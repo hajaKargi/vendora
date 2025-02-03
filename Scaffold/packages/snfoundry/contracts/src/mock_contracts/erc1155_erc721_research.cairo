@@ -204,6 +204,7 @@ pub mod ERC1155_ERC721_Combined_token {
             owner
         }
 
+        ///     BOTH   ERC721 AND ERC1155
         /// Transfers ownership of `value` amount of `token_id` from `from` if `to` is either an
         /// account or `IERC1155Receiver`.
         ///
@@ -252,6 +253,7 @@ pub mod ERC1155_ERC721_Combined_token {
             }
         }
 
+        ///            ERC1155 ONLY
         /// Requirements:
         ///
         /// - Caller is either approved or the `token_id` owner.
@@ -284,6 +286,7 @@ pub mod ERC1155_ERC721_Combined_token {
             self.update_with_acceptance_check(from, to, token_ids, values, data);
         }
 
+        ///         ERC721 ONLY
         /// - Caller is either approved or the `token_id` owner.
         /// - `to` is not the zero address.
         /// - `from` is not the zero address.
@@ -304,6 +307,7 @@ pub mod ERC1155_ERC721_Combined_token {
             assert(from == previous_owner, Errors::INVALID_SENDER);
         }
 
+        ///            ERC721 ONLY
         /// Returns the address approved for `token_id`.
         ///
         /// Requirements:
@@ -315,6 +319,7 @@ pub mod ERC1155_ERC721_Combined_token {
             self.ERC721_token_approvals.read(token_id)
         }
 
+        ///            ERC1155 ONLY
         /// Queries if `operator` is an authorized operator for `owner`.
         #[external(v0)]
         fn is_approved_for_all(
@@ -328,7 +333,7 @@ pub mod ERC1155_ERC721_Combined_token {
         ///
         /// Requirements:
         /// 
-        /// - `token_type` must be 1 for erc1155 token or 2 for erc721
+        /// - `token_type` must be 1155 for erc1155 token or 721 for erc721
         ///
         /// - `operator` cannot be the caller.
         ///
@@ -360,18 +365,21 @@ pub mod ERC1155_ERC721_Combined_token {
     #[abi(per_item)]
     #[generate_trait]
     pub impl TokenMetadataImpl of TokenMetadataTrait {
+        ///            ERC721 ONLY
         /// Returns the NFT name.
         #[external(v0)]
         fn name(self: @ContractState) -> ByteArray {
             self.ERC721_name.read()
         }
 
+        ///            ERC721 ONLY
         /// Returns the NFT symbol.
         #[external(v0)]
         fn symbol(self: @ContractState) -> ByteArray {
             self.ERC721_symbol.read()
         }
 
+        ///            ERC721 ONLY
         /// Returns the Uniform Resource Identifier (URI) for the `token_id` token.
         /// If the URI is not set, the return value will be an empty ByteArray.
         ///
@@ -389,6 +397,7 @@ pub mod ERC1155_ERC721_Combined_token {
             }
         }
 
+        ///            ERC1155 ONLY
         /// This implementation returns the same URI for *all* token types. It relies
         /// on the token type ID substitution mechanism defined in the EIP:
         /// https://eips.ethereum.org/EIPS/eip-1155#metadata.
@@ -407,8 +416,8 @@ pub mod ERC1155_ERC721_Combined_token {
         /// This should only be used inside the contract's constructor.
         /// @notice One can pass args based on the needed token, empty string `""` can be passed for
         /// params @notice token_type can only be 1155 or 721, pass 0 to initialize both
-        /// ERC1155 and ERC721 tokens @param token_type Determines the token to initialize, 1
-        /// initializes ERC1155 token, 2 initializes ERC721 token, 0 initializes both.
+        /// ERC1155 and ERC721 tokens @param token_type Determines the token to initialize,
+        /// 1155 initializes ERC1155 token, 721 initializes ERC721 token, 0 initializes both.
         fn initializer(
             ref self: ContractState,
             name: ByteArray,
@@ -439,6 +448,7 @@ pub mod ERC1155_ERC721_Combined_token {
             }
         }
 
+        ///            ERC721 ONLY
         /// Transfers `token_id` from `from` to `to`.
         ///
         /// Internal function without access restriction.
@@ -464,7 +474,9 @@ pub mod ERC1155_ERC721_Combined_token {
             assert(from == previous_owner, Errors::INVALID_SENDER);
         }
 
-        /// Transfers ownership of `token_id` from `from` if `to` is either an account or
+        ///            ERC721 ONLY
+        ///             
+        ///  Transfers ownership of `token_id` from `from` if `to` is either an account or
         /// `IERC721Receiver`.
         ///
         /// `data` is additional data, it has no specified format and it is sent in call to `to`.
@@ -493,18 +505,20 @@ pub mod ERC1155_ERC721_Combined_token {
             );
         }
 
+        ///            ERC721 ONLY
         /// Returns whether `token_id` exists.
         fn exists(self: @ContractState, token_id: u256) -> bool {
             !self._owner_of(token_id).is_zero()
         }
 
+        ///            ERC721 ONLY
         fn _approve(
             ref self: ContractState, to: ContractAddress, token_id: u256, auth: ContractAddress,
         ) {
             self._approve_with_optional_event(to, token_id, auth, true);
         }
 
-        /// ERC721 only
+        ///                ERC721 ONLY
         /// Mints `token_id` and transfers it to `to`.
         /// Internal function without access restriction.
         ///
@@ -577,6 +591,7 @@ pub mod ERC1155_ERC721_Combined_token {
             self.token_types.write(token_id, 1155);
         }
 
+        ///         ERC1155 ONLY
         /// Batched version of `mint_with_acceptance_check`.
         ///
         /// Requirements:
@@ -607,6 +622,7 @@ pub mod ERC1155_ERC721_Combined_token {
             }
         }
 
+        ///         BOTH ERC1155 AND ERC721
         /// Destroys a `value` amount of tokens of type `token_id` from `from`.
         ///
         /// Requirements:
@@ -636,6 +652,7 @@ pub mod ERC1155_ERC721_Combined_token {
             }
         }
 
+        ///         ERC1155 ONLY
         /// Batched version of `burn`.
         ///
         /// Requirements:
