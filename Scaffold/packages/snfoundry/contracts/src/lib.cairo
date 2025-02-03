@@ -12,3 +12,7 @@ mod mock_contracts {
     pub mod Receiver;
     pub mod erc1155_erc721_research;
 }
+
+mod interface {
+    pub mod erc1155;
+}
