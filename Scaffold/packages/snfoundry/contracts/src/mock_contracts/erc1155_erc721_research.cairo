@@ -42,7 +42,7 @@ pub mod ERC1155_ERC721_Combined_token {
         pub ERC1155_operator_approvals: Map<(ContractAddress, ContractAddress), bool>,
         pub ERC1155_uri: ByteArray,
         // 1 == ERC1155, 2 == ERC721
-        pub token_types: Map<u256, u8>,
+        pub token_types: Map<u256, u16>,
         #[substorage(v0)]
         src5: SRC5Component::Storage,
     }
@@ -146,7 +146,7 @@ pub mod ERC1155_ERC721_Combined_token {
     impl CombinedTokenImpl of CombinedTokenTrait {
         /// @notice Returns token type
         #[external(v0)]
-        fn get_token_type(self: @ContractState, token_id: u256) -> u8 {
+        fn get_token_type(self: @ContractState, token_id: u256) -> u16 {
             self.token_types.read(token_id)
         }
 
@@ -154,8 +154,7 @@ pub mod ERC1155_ERC721_Combined_token {
         #[external(v0)]
         fn balance_of(self: @ContractState, account: ContractAddress, token_id: u256) -> u256 {
             let token_type = self.token_types.read(token_id);
-            assert(token_type == 1 || token_type == 2, Errors::INVALID_TOKEN_TYPE);
-            if token_type == 1 {
+            if token_type == 1155 {
                 self.ERC1155_balances.read((token_id, account))
             } else {
                 self.ERC721_balances.read(account)
@@ -236,12 +235,12 @@ pub mod ERC1155_ERC721_Combined_token {
         ) {
             let token_type = self.token_types.read(token_id);
 
-            if token_type == 1 {
+            if token_type == 1155 {
                 // ERC1155 transfer (supports batch transfers)
                 let token_ids = array![token_id].span();
                 let values = array![value].span();
                 Self::safe_batch_transfer_from(ref self, from, to, token_ids, values, data);
-            } else if token_type == 2 {
+            } else if token_type == 721 {
                 // ERC721 transfer (single transfer, ignores `value`)
                 Self::transfer_from(ref self, from, to, token_id);
                 assert(
@@ -340,17 +339,17 @@ pub mod ERC1155_ERC721_Combined_token {
             owner: ContractAddress,
             operator: ContractAddress,
             approved: bool,
-            token_type: u8,
+            token_type: u16,
         ) {
-            assert(token_type == 1 || token_type == 2, Errors::INVALID_TOKEN_TYPE);
-            if token_type == 1 {
+            assert(token_type == 1155 || token_type == 721, Errors::INVALID_TOKEN_TYPE);
+            if token_type == 1155 {
                 let owner = get_caller_address();
                 assert(owner != operator, Errors::SELF_APPROVAL);
 
                 self.ERC1155_operator_approvals.write((owner, operator), approved);
                 self.emit(ApprovalForAll { owner, operator, approved });
             }
-            if token_type == 2 {
+            if token_type == 721 {
                 assert(!operator.is_zero(), Errors::INVALID_OPERATOR);
                 self.ERC721_operator_approvals.write((owner, operator), approved);
                 self.emit(ApprovalForAll { owner, operator, approved });
@@ -407,7 +406,7 @@ pub mod ERC1155_ERC721_Combined_token {
         /// Initializes the contract by setting the token name, symbol, and base URI.
         /// This should only be used inside the contract's constructor.
         /// @notice One can pass args based on the needed token, empty string `""` can be passed for
-        /// params @notice token_type can only be 1 or 2, pass 0 to initialize both
+        /// params @notice token_type can only be 1155 or 721, pass 0 to initialize both
         /// ERC1155 and ERC721 tokens @param token_type Determines the token to initialize, 1
         /// initializes ERC1155 token, 2 initializes ERC721 token, 0 initializes both.
         fn initializer(
@@ -416,22 +415,22 @@ pub mod ERC1155_ERC721_Combined_token {
             symbol: ByteArray,
             erc721_base_uri: ByteArray,
             erc1155_base_uri: ByteArray,
-            token_type: u8,
+            token_type: u16,
         ) {
             // Validate token_type
             assert(
-                token_type <= 2, Errors::INVALID_TOKEN_TYPE,
-            ); // token_type can only be 0, 1, or 2
+                token_type == 0 || token_type == 1155 || token_type == 721, Errors::INVALID_TOKEN_TYPE,
+            ); // token_type can only be 0, 1155, or 721
 
-            // Initialize ERC1155 if token_type is 0 or 1
-            if token_type == 0 || token_type == 1 {
+            // Initialize ERC1155 if token_type is 0 or 1155
+            if token_type == 0 || token_type == 1155 {
                 self._set_erc1155_base_uri(erc1155_base_uri);
                 self.src5.register_interface(erc1155::IERC1155_ID);
                 self.src5.register_interface(erc1155::IERC1155_METADATA_URI_ID);
             }
 
-            // Initialize ERC721 if token_type is 0 or 2
-            if token_type == 0 || token_type == 2 {
+            // Initialize ERC721 if token_type is 0 or 721
+            if token_type == 0 || token_type == 721 {
                 self.ERC721_name.write(name);
                 self.ERC721_symbol.write(symbol);
                 self._set_erc721_base_uri(erc721_base_uri);
@@ -522,7 +521,7 @@ pub mod ERC1155_ERC721_Combined_token {
             assert(!to.is_zero(), Errors::INVALID_RECEIVER);
 
             let previous_owner = self.update_erc721(to, token_id, Zero::zero());
-            self.token_types.write(token_id, 2);
+            self.token_types.write(token_id, 721);
             assert(previous_owner.is_zero(), Errors::ALREADY_MINTED);
         }
 
@@ -544,7 +543,7 @@ pub mod ERC1155_ERC721_Combined_token {
             ref self: ContractState, to: ContractAddress, token_id: u256, data: Span<felt252>,
         ) {
             self.mint(to, token_id);
-            self.token_types.write(token_id, 2);
+            self.token_types.write(token_id, 721);
 
             assert(
                 _check_on_erc721_received(Zero::zero(), to, token_id, data),
@@ -575,7 +574,7 @@ pub mod ERC1155_ERC721_Combined_token {
             let token_ids = array![token_id].span();
             let values = array![value].span();
             self.update_with_acceptance_check(Zero::zero(), to, token_ids, values, data);
-            self.token_types.write(token_id, 1);
+            self.token_types.write(token_id, 1155);
         }
 
         /// Batched version of `mint_with_acceptance_check`.
@@ -603,7 +602,7 @@ pub mod ERC1155_ERC721_Combined_token {
             loop {
                 if index == token_ids.len() { break; }
                 let token_id = *token_ids.at(index);
-                self.token_types.write(token_id, 1);
+                self.token_types.write(token_id, 1155);
                 index += 1;
             }
         }
@@ -623,16 +622,15 @@ pub mod ERC1155_ERC721_Combined_token {
             value: u256,
         ) {
             let token_type = self.token_types.read(token_id);
-            assert(token_type <= 2, Errors::INVALID_TOKEN_TYPE);
             // burn ERC1155
-            if token_type == 1 {
+            if token_type == 1155 {
                 assert(from.is_non_zero(), Errors::INVALID_SENDER);
                 let token_ids = array![token_id].span();
                 let values = array![value].span();
                 self.update_erc1155(from, Zero::zero(), token_ids, values);
             }
             // burn ERC721
-            if token_type == 2 {
+            if token_type == 721 {
                 let previous_owner = self.update_erc721(Zero::zero(), token_id, Zero::zero());
                 assert(!previous_owner.is_zero(), Errors::INVALID_TOKEN_ID);
             }
