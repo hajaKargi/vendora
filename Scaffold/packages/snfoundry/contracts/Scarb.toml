@@ -9,6 +9,7 @@ edition = "2023_11"
 starknet = "2.9.2"
 # Change to just "openzeppelin" to use full features
 openzeppelin_access = "0.20.0"
+openzeppelin_account = "0.20.0"
 openzeppelin_token = "0.20.0"
 openzeppelin_introspection = "0.20.0"
 
