@@ -50,6 +50,24 @@ const deployScript = async (): Promise<void> => {
   });
 };
 
+// Add ERC1155 deployment
+const deployERC1155 = async () => {
+  console.log("Deploying YourERC1155...");
+
+  const contractFactory = await starknet.getContractFactory("YourERC1155");
+  const contract = await contractFactory.deploy({ owner: deployer.address });
+
+  console.log("YourERC1155 deployed to:", contract.address);
+
+  return contract;
+};
+
+// Add to main deployment function
+const main = async () => {
+  const erc1155 = await deployERC1155();
+  // ... other deployments
+};
+
 deployScript()
   .then(async () => {
     executeDeployCalls()
