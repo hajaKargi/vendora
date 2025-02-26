@@ -73,8 +73,6 @@ export const verifyEmail = asyncHandler(async (req: Request, res: Response) => {
     const decoded = Jwt.verify(token);
     const userId = (decoded as any).payload.userId;
 
-    console.log(decoded);
-
     // Update user verification status
     const updatedUser = await UserService.activateEmail(userId);
 
