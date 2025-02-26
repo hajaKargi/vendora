@@ -15,7 +15,7 @@ class ZohoMailer {
         pass: serverSettings.email.password,
       },
     });
-    this.fromAddress = "Identigo<noreply@identigo.africa>";
+    this.fromAddress = serverSettings.email.fromAddress;
   }
 
   public async sendTextEmail(email: string, subject: string, text: string) {
