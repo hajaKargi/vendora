@@ -30,9 +30,7 @@ export const generateWalletChallenge = asyncHandler(
   }
 );
 
-/**
- * Verify wallet ownership with signature
- */
+
 export const verifyWalletSignature = asyncHandler(
   async (req: Request, res: Response) => {
     const { walletAddress, signature } = req.body;

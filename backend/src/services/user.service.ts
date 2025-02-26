@@ -1,8 +1,5 @@
 import { PrismaClient, Status } from "@prisma/client";
-import jwt from "jsonwebtoken";
-import { BadRequestError, InternalError } from "../core/api/ApiError";
-import EmailNotifier from "../utils/service/emailNotifier";
-import serverSettings from "../core/config/settings";
+import { InternalError } from "../core/api/ApiError";
 
 const prisma = new PrismaClient();
 

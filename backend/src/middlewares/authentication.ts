@@ -8,7 +8,7 @@ import {
 import UserService from "../services/user.service";
 
 // Middleware to check if the user is authorized
-export const isAuthorized = (allowedAccountTypes?: string[]) => {
+export const isAuthorized = () => {
   return async (req: Request, res: Response, next: NextFunction) => {
     try {
       const token: string | undefined =
