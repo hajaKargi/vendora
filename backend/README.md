@@ -1,168 +1,166 @@
-# AURORA Backend
+# Pull Request for STARKLA - Close Issue #15
 
-## 🚀 Project Overview
+## ❗ Pull Request Information
+Authentication and Wallet Integration for AURORA Platform
 
-AURORA is a cutting-edge backend application designed to provide robust authentication and wallet management services. Built with TypeScript, Express, and PostgreSQL, the project offers secure user registration, email verification, and blockchain wallet integration.
+## 🗒️ Summary of Changes
 
-## 📋 Table of Contents
+### 🏗️ Project Structure & Architecture
+- Initialized backend application with comprehensive architecture
+- Created modular directory structure
+- Set up TypeScript-based project with robust configuration
 
-- [Features](#features)
-- [Technologies](#technologies)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Database Setup](#database-setup)
-- [Running the Application](#running-the-application)
-- [Testing](#testing)
-- [Security Features](#security-features)
-- [Contributing](#contributing)
-- [License](#license)
+### 🔐 Authentication Flow
+- Implemented comprehensive user authentication system
+- Added secure registration with email verification
+- Created login mechanism with JWT token generation
+- Developed email verification process
 
-## 🌟 Features
+### 🏦 Wallet Integration
+- Implemented wallet address validation using ethers.js
+- Created challenge-response mechanism for wallet verification
+- Integrated wallet management with user authentication
 
-- 🔐 Secure User Authentication
-- 📧 Email Verification System
-- 🏦 Wallet Address Validation
-- 🔒 JWT-based Authorization
-- 💾 PostgreSQL Database Integration
-- 🧪 Comprehensive Test Coverage
+## 📊 Database Seeding Instructions
 
-## 💻 Technologies
+### Seeding Mechanism Overview
+- Custom seed script for database population
+- Supports multiple environment configurations
+- Automated user and wallet creation
+- Secure password hashing during seeding
 
-- **Language**: TypeScript
-- **Backend Framework**: Express.js
-- **Database**: PostgreSQL
-- **ORM**: Prisma
-- **Authentication**: JWT, Bcrypt
-- **Wallet Validation**: ethers.js
-- **Testing**: Jest, Supertest
+### Seed Script Features
+- Creates sample users with different verification statuses
+- Generates unique wallet addresses
+- Sets up initial system users
+- Supports easy database reset and recreation
 
-## 🛠 Prerequisites
+### Seed Script Implementation
+```typescript
+import { PrismaClient } from "@prisma/client";
+import bcrypt from "bcrypt";
 
-- Node.js (v18+)
-- PostgreSQL (v13+)
-- npm or yarn
-- Docker (optional)
+const prisma = new PrismaClient();
 
-## 🔧 Installation
+async function main() {
+  const hashedPassword = await bcrypt.hash("password123!", 10);
 
-1. Clone the repository:
+  const user = await prisma.user.create({
+    data: {
+      email: "customer@aurora.com",
+      password: hashedPassword,
+      firstName: "Aurora",
+      lastName: "Admin",
+      isEmailVerified: true,
+      status: "ACTIVE",
+    },
+  });
+
+  // Create a wallet for the user separately
+  const wallet = await prisma.wallet.create({
+    data: {
+      userId: user.id,
+      walletAddress: "0x1234567890123456789012345678901234567890",
+      isVerified: true,
+      status: "ACTIVE",
+    },
+  });
+
+  console.log({
+    user: {
+      id: user.id,
+      email: user.email,
+    },
+    wallet: {
+      id: wallet.id,
+      walletAddress: wallet.walletAddress,
+    },
+  });
+}
+
+main()
+  .catch((e) => {
+    console.error(e);
+    process.exit(1);
+  })
+  .finally(async () => {
+    await prisma.$disconnect();
+  });
+
+```
+
+### Seeding Commands
 ```bash
-git clone https://github.com/AURORALAOrg/AURORA-Backend.git
-cd AURORA-Backend
+# Run migrations
+npx prisma migrate dev
+
+# Seed the database
+npm run seed
+
+# Reset and reseed (development)
+npx prisma migrate reset --force
+npm run seed
 ```
 
-2. Install dependencies:
-```bash
-npm install
+## 🔐 Authentication Endpoints Workflow
+
+1. User Registration
+```json
+POST /api/auth/register
+{
+  "email": "user@example.com",
+  "password": "SecurePassword123!",
+  "firstName": "John",
+  "lastName": "Doe",
+  "walletAddress": "0x1234567890123456789012345678901234567890"
+}
 ```
 
-## 📝 Configuration
-
-### Environment Variables
-
-Create a `.env` file in the project root with the following variables:
-
-```env
-# Database Configuration
-DATABASE_URL="postgresql://username:password@localhost:5432/aurora_db?schema=public"
-
-# Authentication
-JWT_SECRET=your_secure_jwt_secret
-JWT_EXPIRATION=1d
-BCRYPT_SALT_ROUNDS=10
-
-# Email Configuration
-EMAIL_HOST=smtp.example.com
-EMAIL_PORT=587
-EMAIL_USER=your_email@example.com
-EMAIL_PASS=your_email_password
-
-# Application Settings
-APP_PORT=3000
+2. User Login
+```json
+POST /api/auth/login
+{
+  "email": "user@example.com",
+  "password": "SecurePassword123!"
+}
 ```
 
-## 💾 Database Setup
-
-### Option 1: Local PostgreSQL
-
-1. Create the database:
-```bash
-createdb aurora_db
+3. Email Verification
+```
+GET /api/auth/verify-email?token=<verification_token>
 ```
 
-### Option 2: Docker (Recommended)
-
-1. Start PostgreSQL container:
-```bash
-docker run --name aurora-postgres \
-  -e POSTGRES_PASSWORD=your_password \
-  -p 5432:5432 \
-  -d postgres
+4. Wallet Challenge Generation
+```json
+POST /api/wallet/challenge
+{
+  "walletAddress": "0x1234567890123456789012345678901234567890"
+}
 ```
 
-2. Create the database:
-```bash
-docker exec -it aurora-postgres psql -U postgres -c "CREATE DATABASE aurora_db;"
+5. Wallet Verification
+```json
+POST /api/wallet/verify
+{
+  "walletAddress": "0x1234567890123456789012345678901234567890",
+  "signature": "<ethereumSignature>"
+}
 ```
 
-### Database Migrations
 
-1. Generate Prisma Client:
-```bash
-npx prisma generate
-```
+## Security Mechanisms
+- Signature validation
+- Address recovery
+- Prevent replay attacks
+- Challenge expiration
 
-2. Run Migrations:
-```bash
-npx prisma migrate dev --name init
-```
+## 🚀 Performance Considerations
+- Efficient database queries
+- Minimal database interactions
+- Cached challenge generation
+- Secure token management
 
-## 🚀 Running the Application
+## 📂 Related Issue
+This pull request closes #15 upon merging.
 
-### Development Mode
-```bash
-npm run dev
-```
-
-### Production Build
-```bash
-npm run build
-npm start
-```
-
-## 🧪 Testing
-
-### Run Tests
-```bash
-npm test
-```
-
-### Run Tests with Coverage
-```bash
-npm run test:coverage
-```
-
-## 🔒 Security Features
-
-- Password hashing with bcrypt
-- JWT-based authentication
-- Email verification
-- Wallet address validation
-- Custom error handling middleware
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## 📞 Contact
-
-Project Link: [https://github.com/AURORALAOrg/AURORA-Backend](https://github.com/AURORALAOrg/AURORA-Backend)
+## 🎉 Thank You for Reviewing! 🎉
