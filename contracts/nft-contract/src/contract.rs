@@ -94,17 +94,17 @@ impl NFT {
         );
     }
 
-    pub fn approve(env: Env, from: Address, to: Address, token_id: u128) {
+    pub fn approve(env: Env, from: Address, to: Option<Address>, token_id: u128) {
         from.require_auth();
 
         env.storage()
             .instance()
             .extend_ttl(INSTANCE_LIFETIME_THRESHOLD, INSTANCE_BUMP_AMOUNT);
 
-        Self::_approve(&env, Some(to), token_id, Some(from), true);
+        Self::_approve(&env, to, token_id, Some(from), true);
     }
 
-    pub fn get_approved(env: Env, token_id: u128) -> Address {
+    pub fn get_approved(env: Env, token_id: u128) -> Option<Address> {
         env.storage()
             .instance()
             .extend_ttl(INSTANCE_LIFETIME_THRESHOLD, INSTANCE_BUMP_AMOUNT);
@@ -121,13 +121,13 @@ impl NFT {
             .extend_ttl(INSTANCE_LIFETIME_THRESHOLD, INSTANCE_BUMP_AMOUNT);
 
         let previous_owner = Self::_update(&env, Some(to), token_id, Some(sender));
-        if let Some(previous_owner) = previous_owner {
-            if previous_owner != from {
-                panic!(
-                    "NFTIncorrectOwner({:?}, {}, {:?})",
-                    from, token_id, previous_owner
-                );
-            }
+        if previous_owner.is_some() && previous_owner.clone().unwrap() != from {
+            panic!(
+                "NFTIncorrectOwner({:?}, {}, {:?})",
+                from,
+                token_id,
+                previous_owner.unwrap()
+            );
         }
     }
 
@@ -135,8 +135,8 @@ impl NFT {
         read_owner(env, token_id)
     }
 
-    fn _get_approved(env: &Env, token_id: u128) -> Address {
-        read_token_approval(&env, token_id).unwrap()
+    fn _get_approved(env: &Env, token_id: u128) -> Option<Address> {
+        read_token_approval(&env, token_id)
     }
 
     fn _is_authorized(
@@ -145,8 +145,7 @@ impl NFT {
         spender: &Option<Address>,
         token_id: u128,
     ) -> bool {
-        spender.is_some()
-            && (owner == spender || Self::_get_approved(env, token_id) == spender.clone().unwrap())
+        spender.is_some() && (owner == spender || Self::_get_approved(env, token_id) == *spender)
     }
 
     fn _check_authorized(
@@ -238,10 +237,8 @@ impl NFT {
         if emit_event || auth.is_some() {
             let owner = Self::_require_owned(env, token_id);
 
-            if let Some(auth) = auth {
-                if owner != auth {
-                    panic!("NFTInvalidApprover({:?})", auth);
-                }
+            if auth.is_some() && owner != auth.clone().unwrap() {
+                panic!("NFTInvalidApprover({:?})", auth.unwrap());
             }
 
             if emit_event {
