@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "contracts/nft-contract",
+    # Add other Rust projects here as needed
+]
+
