@@ -1,4 +1,4 @@
-import { Pool } from "pg";
+import { pool } from "pg";
 import dotenv from "dotenv";
 import path from "path";
 
