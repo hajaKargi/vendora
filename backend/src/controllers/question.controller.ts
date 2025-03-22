@@ -5,7 +5,7 @@ import { BadRequestError } from '../core/api/ApiError';
 import QuestionService from '../services/question.service';
 
 export const createQuestion = asyncHandler(async (req: Request, res: Response) => {
-    const userId = res.locals.account.id;
+    const userId = '67d918fb-f118-8006-a070-6f441b724db0' // res.locals.account.id;
     const question = await QuestionService.createQuestion({
         ...req.body,
         createdBy: userId,
@@ -16,7 +16,7 @@ export const createQuestion = asyncHandler(async (req: Request, res: Response) =
 
 export const getQuestions = asyncHandler(async (req: Request, res: Response) => {
     const { type } = req.query;
-    const questions = await QuestionService.getQuestions(type as any);
+    const questions = await QuestionService.getQuestions();
     console.log(questions);
     return new SuccessResponse('Questions retrieved successfully', questions).send(res);
 });

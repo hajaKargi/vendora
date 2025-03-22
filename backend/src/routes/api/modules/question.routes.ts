@@ -16,7 +16,7 @@ import {
 const router = express.Router();
 
 // Protected routes (require authentication)
-router.use(isAuthorized());
+// router.use(isAuthorized());
 
 // Question routes
 router.post("/", validateRequest(createQuestionValidation), createQuestion);

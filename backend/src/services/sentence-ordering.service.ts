@@ -3,22 +3,31 @@ import { InternalError, BadRequestError } from "../core/api/ApiError";
 
 const prisma = new PrismaClient();
 
-interface ISentenceOrderingCreate {
+interface ISentenceOrderingContent {
     sentence: string;
     words: string[];
     explanation: string;
-    metadata: {
-        englishLevel: string;
-        difficulty: string;
-        category: string;
-        subCategory: string;
-        tags: string[];
-    };
-    gameMetadata: {
-        pointsValue: number;
-        timeLimit: number;
-        difficultyMultiplier: number;
-    };
+}
+
+interface ISentenceOrderingMetadata {
+    englishLevel: string;
+    difficulty: string;
+    category: string;
+    subCategory: string;
+    tags: string[];
+    type: string;
+}
+
+interface IGameMetadata {
+    pointsValue: number;
+    timeLimit: number;
+    difficultyMultiplier: number;
+}
+
+interface ISentenceOrderingCreate {
+    content: ISentenceOrderingContent;
+    metadata: ISentenceOrderingMetadata;
+    gameMetadata: IGameMetadata;
     createdBy: string;
 }
 
@@ -32,7 +41,10 @@ class SentenceOrderingService {
             return await prisma.$transaction(async (tx) => {
                 const exercise = await tx.sentenceOrdering.create({
                     data: {
-                        ...data,
+                        content: data.content as any,
+                        metadata: data.metadata as any,
+                        gameMetadata: data.gameMetadata as any,
+                        createdBy: data.createdBy,
                         status: Status.ACTIVE,
                     },
                 });
@@ -90,7 +102,12 @@ class SentenceOrderingService {
             return await prisma.$transaction(async (tx) => {
                 const exercise = await tx.sentenceOrdering.update({
                     where: { id },
-                    data: updateData,
+                    data: {
+                        ...(updateData.content && { content: updateData.content as any }),
+                        ...(updateData.metadata && { metadata: updateData.metadata as any }),
+                        ...(updateData.gameMetadata && { gameMetadata: updateData.gameMetadata as any }),
+                        ...(updateData.createdBy && { createdBy: updateData.createdBy }),
+                    },
                 });
                 return exercise;
             });

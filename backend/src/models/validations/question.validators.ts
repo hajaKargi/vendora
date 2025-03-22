@@ -2,7 +2,6 @@ import Joi from 'joi';
 
 export const createQuestionValidation = {
     body: Joi.object({
-        type: Joi.string().valid('MULTIPLE_CHOICE', 'SENTENCE_ORDERING').required(),
         content: Joi.object({
             question: Joi.string().required(),
             correctAnswer: Joi.string().required(),
@@ -15,7 +14,7 @@ export const createQuestionValidation = {
             category: Joi.string().required(),
             subCategory: Joi.string().required(),
             tags: Joi.array().items(Joi.string()).required(),
-            type: Joi.string().required()
+            type: Joi.string().valid('multiple-choice').required()
         }).required(),
         gameMetadata: Joi.object({
             pointsValue: Joi.number().required(),
@@ -27,7 +26,6 @@ export const createQuestionValidation = {
 
 export const updateQuestionValidation = {
     body: Joi.object({
-        type: Joi.string().valid('MULTIPLE_CHOICE', 'SENTENCE_ORDERING'),
         content: Joi.object({
             question: Joi.string(),
             correctAnswer: Joi.string(),
@@ -40,7 +38,7 @@ export const updateQuestionValidation = {
             category: Joi.string(),
             subCategory: Joi.string(),
             tags: Joi.array().items(Joi.string()),
-            type: Joi.string()
+            type: Joi.string().valid('multiple-choice')
         }),
         gameMetadata: Joi.object({
             pointsValue: Joi.number(),

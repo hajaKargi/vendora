@@ -1,28 +1,34 @@
-import { PrismaClient, Status, Question, QuestionType } from "@prisma/client";
+import { PrismaClient, Status, Question } from "@prisma/client";
 import { InternalError, BadRequestError } from "../core/api/ApiError";
 
 const prisma = new PrismaClient();
 
+interface IQuestionContent {
+    question: string;
+    correctAnswer: string;
+    wrongAnswers: string[];
+    explanation: string;
+}
+
+interface IQuestionMetadata {
+    englishLevel: string;
+    difficulty: string;
+    category: string;
+    subCategory: string;
+    tags: string[];
+    type: string;
+}
+
+interface IGameMetadata {
+    pointsValue: number;
+    timeLimit: number;
+    difficultyMultiplier: number;
+}
+
 interface IQuestionCreate {
-    type: QuestionType;
-    content: {
-        question: string;
-        correctAnswer: string;
-        wrongAnswers: string[];
-        explanation: string;
-    };
-    metadata: {
-        englishLevel: string;
-        difficulty: string;
-        category: string;
-        subCategory: string;
-        tags: string[];
-    };
-    gameMetadata: {
-        pointsValue: number;
-        timeLimit: number;
-        difficultyMultiplier: number;
-    };
+    content: IQuestionContent;
+    metadata: IQuestionMetadata;
+    gameMetadata: IGameMetadata;
     createdBy: string;
 }
 
@@ -36,7 +42,10 @@ class QuestionService {
             return await prisma.$transaction(async (tx) => {
                 const question = await tx.question.create({
                     data: {
-                        ...data,
+                        content: data.content as any,
+                        metadata: data.metadata as any,
+                        gameMetadata: data.gameMetadata as any,
+                        createdBy: data.createdBy,
                         status: Status.ACTIVE,
                     },
                 });
@@ -48,12 +57,11 @@ class QuestionService {
         }
     }
 
-    public static async getQuestions(type?: QuestionType): Promise<Question[]> {
+    public static async getQuestions(): Promise<Question[]> {
         try {
             return await prisma.question.findMany({
                 where: {
                     status: Status.ACTIVE,
-                    ...(type && { type }),
                 },
                 orderBy: {
                     createdAt: "desc",
@@ -95,7 +103,12 @@ class QuestionService {
             return await prisma.$transaction(async (tx) => {
                 const question = await tx.question.update({
                     where: { id },
-                    data: updateData,
+                    data: {
+                        ...(updateData.content && { content: updateData.content as any }),
+                        ...(updateData.metadata && { metadata: updateData.metadata as any }),
+                        ...(updateData.gameMetadata && { gameMetadata: updateData.gameMetadata as any }),
+                        ...(updateData.createdBy && { createdBy: updateData.createdBy }),
+                    },
                 });
                 return question;
             });
