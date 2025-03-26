@@ -1,28 +1,22 @@
-import express from "express";
-import { isAuthorized } from "../../../middlewares/authentication";
-import validateRequest from "../../../middlewares/validator";
-import {
-    createQuestion,
-    getQuestions,
-    getQuestionById,
-    updateQuestion,
-    deleteQuestion,
-} from "../../../controllers/question.controller";
+import { Router } from 'express';
+import QuestionController from '../../../controllers/question.controller';
+import { isAuthorized } from '../../../middlewares/authentication';
+import validateRequest from '../../../middlewares/validator';
 import {
     createQuestionValidation,
     updateQuestionValidation,
-} from "../../../models/validations/question.validators";
+} from '../../../models/validations/question.validators';
 
-const router = express.Router();
+const router = Router();
 
 // Protected routes (require authentication)
 // router.use(isAuthorized());
 
 // Question routes
-router.post("/", validateRequest(createQuestionValidation), createQuestion);
-router.get("/", getQuestions);
-router.get("/:id", getQuestionById);
-router.put("/:id", validateRequest(updateQuestionValidation), updateQuestion);
-router.delete("/:id", deleteQuestion);
+router.post('/', isAuthorized(), validateRequest(createQuestionValidation), QuestionController.createQuestion);
+router.get('/', QuestionController.getAllQuestions);
+router.get('/:id', QuestionController.getQuestionById);
+router.put('/:id', isAuthorized(), validateRequest(updateQuestionValidation), QuestionController.updateQuestion);
+router.delete('/:id', QuestionController.deleteQuestion);
 
 export default router; 

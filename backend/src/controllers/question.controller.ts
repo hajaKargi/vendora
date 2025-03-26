@@ -1,47 +1,149 @@
 import { Request, Response } from 'express';
-import asyncHandler from '../middlewares/async';
-import { SuccessResponse } from '../core/api/ApiResponse';
-import { BadRequestError } from '../core/api/ApiError';
+import { createQuestionValidation, updateQuestionValidation } from '../models/validations/question.validators';
 import QuestionService from '../services/question.service';
+import { BadRequestError, InternalError } from '../core/api/ApiError';
 
-export const createQuestion = asyncHandler(async (req: Request, res: Response) => {
-    const userId = '67d918fb-f118-8006-a070-6f441b724db0' // res.locals.account.id;
-    const question = await QuestionService.createQuestion({
-        ...req.body,
-        createdBy: userId,
-    });
+interface AuthenticatedRequest extends Request {
+    user?: {
+        id: string;
+    };
+}
 
-    return new SuccessResponse('Question created successfully', question).send(res);
-});
+class QuestionController {
+    public static async createQuestion(req: AuthenticatedRequest, res: Response) {
+        try {
+            const { error } = createQuestionValidation.body.validate(req.body);
+            if (error) {
+                throw new BadRequestError(error.details[0].message);
+            }
 
-export const getQuestions = asyncHandler(async (req: Request, res: Response) => {
-    const { type } = req.query;
-    const questions = await QuestionService.getQuestions();
-    console.log(questions);
-    return new SuccessResponse('Questions retrieved successfully', questions).send(res);
-});
+            if (!req.user?.id) {
+                throw new BadRequestError('User not authenticated');
+            }
 
-export const getQuestionById = asyncHandler(async (req: Request, res: Response) => {
-    const question = await QuestionService.getQuestionById(req.params.id);
+            const question = await QuestionService.createQuestion({
+                ...req.body,
+                createdBy: req.user.id
+            });
 
-    if (!question) {
-        throw new BadRequestError('Question not found');
+            res.status(201).json({
+                status: 'success',
+                data: question
+            });
+        } catch (error) {
+            if (error instanceof BadRequestError) {
+                res.status(400).json({
+                    status: 'error',
+                    message: error.message
+                });
+            } else {
+                res.status(500).json({
+                    status: 'error',
+                    message: 'Internal server error'
+                });
+            }
+        }
     }
 
-    return new SuccessResponse('Question retrieved successfully', question).send(res);
-});
+    public static async updateQuestion(req: Request, res: Response) {
+        try {
+            const { error } = updateQuestionValidation.body.validate(req.body);
+            if (error) {
+                throw new BadRequestError(error.details[0].message);
+            }
 
-export const updateQuestion = asyncHandler(async (req: Request, res: Response) => {
-    const question = await QuestionService.updateQuestion({
-        id: req.params.id,
-        ...req.body,
-    });
+            const question = await QuestionService.updateQuestion({
+                id: req.params.id,
+                ...req.body
+            });
 
-    return new SuccessResponse('Question updated successfully', question).send(res);
-});
+            res.status(200).json({
+                status: 'success',
+                data: question
+            });
+        } catch (error) {
+            if (error instanceof BadRequestError) {
+                res.status(400).json({
+                    status: 'error',
+                    message: error.message
+                });
+            } else {
+                res.status(500).json({
+                    status: 'error',
+                    message: 'Internal server error'
+                });
+            }
+        }
+    }
 
-export const deleteQuestion = asyncHandler(async (req: Request, res: Response) => {
-    await QuestionService.deleteQuestion(req.params.id);
+    public static async getQuestionById(req: Request, res: Response) {
+        try {
+            const question = await QuestionService.getQuestionById(req.params.id);
+            if (!question) {
+                throw new BadRequestError('Question not found');
+            }
 
-    return new SuccessResponse('Question deleted successfully', null).send(res);
-}); 
+            res.status(200).json({
+                status: 'success',
+                data: question
+            });
+        } catch (error) {
+            if (error instanceof BadRequestError) {
+                res.status(400).json({
+                    status: 'error',
+                    message: error.message
+                });
+            } else {
+                res.status(500).json({
+                    status: 'error',
+                    message: 'Internal server error'
+                });
+            }
+        }
+    }
+
+    public static async getAllQuestions(req: Request, res: Response) {
+        try {
+            const { type, category, subCategory, englishLevel, difficulty } = req.query;
+
+            const questions = await QuestionService.getQuestions({
+                type: type as any,
+                category: category as string,
+                subCategory: subCategory as string,
+                englishLevel: englishLevel as string,
+                difficulty: difficulty as string
+            });
+
+            res.status(200).json({
+                status: 'success',
+                data: questions
+            });
+        } catch (error) {
+            res.status(500).json({
+                status: 'error',
+                message: 'Internal server error'
+            });
+        }
+    }
+
+    public static async deleteQuestion(req: Request, res: Response) {
+        try {
+            await QuestionService.deleteQuestion(req.params.id);
+            res.status(204).send();
+        } catch (error) {
+            if (error instanceof BadRequestError) {
+                res.status(400).json({
+                    status: 'error',
+                    message: error.message
+                });
+            } else {
+                res.status(500).json({
+                    status: 'error',
+                    message: 'Internal server error'
+                });
+            }
+        }
+    }
+}
+
+export default QuestionController; 
