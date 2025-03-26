@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { createQuestionValidation, updateQuestionValidation } from '../models/validations/question.validators';
 import QuestionService from '../services/question.service';
-import { BadRequestError } from '../core/api/ApiError';
+import { BadRequestError, InternalError } from '../core/api/ApiError';
 
 interface AuthenticatedRequest extends Request {
     user?: {
@@ -16,7 +16,6 @@ class QuestionController {
             if (error) {
                 throw new BadRequestError(error.details[0].message);
             }
-
 
             if (!req.user?.id) {
                 throw new BadRequestError('User not authenticated');
@@ -105,7 +104,16 @@ class QuestionController {
 
     public static async getAllQuestions(req: Request, res: Response) {
         try {
-            const questions = await QuestionService.getQuestions();
+            const { type, category, subCategory, englishLevel, difficulty } = req.query;
+
+            const questions = await QuestionService.getQuestions({
+                type: type as any,
+                category: category as string,
+                subCategory: subCategory as string,
+                englishLevel: englishLevel as string,
+                difficulty: difficulty as string
+            });
+
             res.status(200).json({
                 status: 'success',
                 data: questions

@@ -12,11 +12,11 @@ const router = Router();
 // Protected routes (require authentication)
 // router.use(isAuthorized());
 
-// Question routes - handles all question types
+// Question routes
 router.post('/', isAuthorized(), validateRequest(createQuestionValidation), QuestionController.createQuestion);
 router.get('/', QuestionController.getAllQuestions);
 router.get('/:id', QuestionController.getQuestionById);
 router.put('/:id', isAuthorized(), validateRequest(updateQuestionValidation), QuestionController.updateQuestion);
-router.delete('/:id', isAuthorized(), QuestionController.deleteQuestion);
+router.delete('/:id', QuestionController.deleteQuestion);
 
 export default router; 

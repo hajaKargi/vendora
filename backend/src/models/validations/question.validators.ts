@@ -7,7 +7,7 @@ const commonMetadataSchema = Joi.object({
     category: Joi.string().required(),
     subCategory: Joi.string().required(),
     tags: Joi.array().items(Joi.string()).required(),
-    type: Joi.string().valid('multiple-choice', 'drag-and-drop-sentence-builder', 'fill-in-the-blanks').required()
+    type: Joi.string().valid('multiple-choice', 'sentence-builder', 'fill-in-blanks').required()
 });
 
 // Common game metadata schema
@@ -25,8 +25,8 @@ const multipleChoiceContentSchema = Joi.object({
     explanation: Joi.string().required()
 });
 
-// Sentence ordering content schema
-const sentenceOrderingContentSchema = Joi.object({
+// Sentence builder content schema
+const sentenceBuilderContentSchema = Joi.object({
     sentence: Joi.string().required(),
     words: Joi.array().items(Joi.string()).min(2).required(),
     explanation: Joi.string().required()
@@ -45,8 +45,8 @@ const contentSchema = Joi.object().when('metadata.type', {
     is: 'multiple-choice',
     then: multipleChoiceContentSchema,
     otherwise: Joi.object().when('metadata.type', {
-        is: 'drag-and-drop-sentence-builder',
-        then: sentenceOrderingContentSchema,
+        is: 'sentence-builder',
+        then: sentenceBuilderContentSchema,
         otherwise: fillInTheBlanksContentSchema
     })
 });
