@@ -8,9 +8,9 @@ class ZohoMailer {
 
   constructor() {
     this.transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
+      host: "smtp.zeptomail.com",
       port: 587,
-      secure: true,
+      secure: false,
       auth: {
         user: serverSettings.email.username,
         pass: serverSettings.email.password,

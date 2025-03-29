@@ -11,11 +11,17 @@ const envVarsSchema = Joi.object()
       .required(),
     SERVER_PORT: Joi.number().default(8000),
     JWT_SECRET_KEY: Joi.string().required().description("JWT Secret Key"),
-    BCRYPT_SALT_ROUNDS: Joi.number().required().description("Bcrypt Salt Rounds"),
+    BCRYPT_SALT_ROUNDS: Joi.number()
+      .required()
+      .description("Bcrypt Salt Rounds"),
     EMAIL_USERNAME: Joi.string().required().description("Email username"),
     EMAIL_PASSWORD: Joi.string().required().description("Email password"),
-    EMAIL_FROM_ADDRESS: Joi.string().required().description("Sender email address"),
-    AURORA_WEB_APP_BASE_URL: Joi.string().required().description("Base URL for Aurora Web App"),
+    EMAIL_FROM_ADDRESS: Joi.string()
+      .required()
+      .description("Sender email address"),
+    AURORA_WEB_APP_BASE_URL: Joi.string()
+      .required()
+      .description("Base URL for Aurora Web App"),
   })
   .unknown();
 
