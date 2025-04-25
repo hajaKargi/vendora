@@ -1,36 +1,31 @@
-import Jwt from "../utils/security/jwt";
-import { Request, Response, NextFunction } from "express";
-import {
-  ForbiddenError,
-  BadRequestError,
-  UnauthorizedError,
-} from "../core/api/ApiError";
-import UserService from "../services/user.service";
+import Jwt from "../utils/security/jwt"
+import { Request, Response, NextFunction } from "express"
+import { UnauthorizedError } from "../core/api/ApiError"
+import UserService from "../services/user.service"
 
-// Middleware to check if the user is authorized
 export const isAuthorized = () => {
   return async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const token: string | undefined =
-        req?.headers?.authorization?.split(" ")[1];
-
-      if (!token) {
-        return next(new UnauthorizedError("Unauthorized"));
+      const authHeader = req.headers.authorization
+      if (!authHeader || !authHeader.startsWith("Bearer ")) {
+        return next(new UnauthorizedError("Unauthorized - No token provided"))
       }
 
-      const decoded = Jwt.verify(token as string);
+      const token = authHeader.split(" ")[1]
+      const decoded = Jwt.verify(token)
 
-      const loggedInUser = await UserService.readUserById(decoded.payload.id);
-
-      if (!loggedInUser) {
-        return next(new UnauthorizedError("Unauthorized"));
+      if (!decoded || !decoded.payload || !decoded.payload.id) {
+        return next(new UnauthorizedError("Unauthorized - Invalid token"))
       }
 
-      res.locals.account = loggedInUser;
+      const user = await UserService.readUserById(decoded.payload.id)
+      if (!user) return next(new UnauthorizedError("Unauthorized - User not found"))
 
-      next();
+      res.locals.account = user
+      next()
     } catch (err) {
-      next(new UnauthorizedError("Unauthorized"));
+      console.error("❌ Auth middleware error:", err)
+      next(new UnauthorizedError("Unauthorized"))
     }
-  };
-};
+  }
+}
