@@ -1,0 +1,2502 @@
+[
+  {
+    "content": {
+      "sentence": "The sun ___ brightly in the sky.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "My cat ___ milk every morning.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ to school every day.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ her teeth twice a day.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ a book right now.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ football on Saturdays.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "This ___ my favorite color.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "Birds ___ in the sky.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ television after dinner.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ in a big city.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The baby ___ when hungry.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ coffee in the morning.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ to music every evening.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ their homework together.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "Dogs ___ bones.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The store ___ at 9 AM.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ apples from the market.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ her grandmother every Sunday.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The teacher ___ at the board.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "Children ___ to play outside.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ my bed every morning.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ a blue shirt today.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The bus ___ at 8 o'clock.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ English in class.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ the piano beautifully.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ in a small house.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The flowers ___ in spring.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ my keys on the table.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ his car to work.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ lunch at noon.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The dog ___ in the garden.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ pictures of animals.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ to the radio daily.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ a sandwich for breakfast.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The moon ___ at night.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ our hands before eating.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ the door when entering.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ a letter to her friend.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The phone ___ when I'm sleeping.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ basketball on weekends.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ a shower every evening.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The wind ___ strongly today.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ her hair every morning.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ the bus to downtown.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ his homework carefully.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The baby ___ when happy.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ to music while working.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ in an apartment building.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The clock ___ twelve times at noon.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ vegetables at the market.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ our grandparents on holidays.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ a newspaper every morning.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The train ___ from platform 3.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ my face after waking up.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ the dishes together.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ her room every weekend.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The river ___ to the sea.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ our teeth before bed.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ emails to his colleagues.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ shopping on Saturdays.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The stars ___ at night.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ French and Spanish.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ coffee after dinner.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The computer ___ quickly.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ photos during vacation.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ his bike to school.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ breakfast at 7 AM.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The door ___ when it's windy.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ novels before sleeping.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ the windows when hot.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ hands when greeting.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ a shower after sports.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ the floor every Friday.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The baby ___ when tired.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ her lunch to work.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ TV in the evening.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The sun ___ in the east.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ our pets every day.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ the guitar in a band.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ letters to my friends.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The plane ___ at 3 PM.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ her car on weekends.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ hiking in summer.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ juice for breakfast.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ a tie for meetings.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ my hair after washing.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The cat ___ on the sofa.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ maps for directions.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ the news every night.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The light ___ when it's dark.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ our shoes at home.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ stories to children.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ tea with honey.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The phone ___ for emergencies.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ a diary every night.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ at restaurants sometimes.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ coats in winter.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ medicine when sick.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ the window for fresh air.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "The birds ___ early morning.",
+      "correctAnswer": "___",
+      "hint": "Use appropriate grammar for the blank",
+      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": [
+        "grammar",
+        "fill-in-the-blank",
+        "A1"
+      ],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  }
+]
