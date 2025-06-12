@@ -22,23 +22,611 @@
   },
   {
     "content": {
-      "sentence": "By the time we arrived, the movie ___ already started.",
-      "correctAnswer": "had",
-      "hint": "This happened before another past event",
-      "explanation": "The past perfect tense is used to show that one action happened before another in the past."
+      "sentence": "I ___ to school every day.",
+      "correctAnswer": "go",
+      "hint": "What do you do every day?",
+      "explanation": "The present simple tense is used for regular actions."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "present simple",
+      "tags": ["grammar", "present simple", "daily routine"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ a book right now.",
+      "correctAnswer": "is reading",
+      "hint": "What is she doing at this moment?",
+      "explanation": "The present continuous tense is used for actions happening now."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "present continuous",
+      "tags": ["grammar", "present continuous", "actions"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ in London.",
+      "correctAnswer": "live",
+      "hint": "Where do they stay?",
+      "explanation": "The present simple tense is used for permanent situations."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "present simple",
+      "tags": ["grammar", "present simple", "location"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ to the cinema yesterday.",
+      "correctAnswer": "went",
+      "hint": "What did we do in the past?",
+      "explanation": "The past simple tense is used for completed actions in the past."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "past simple",
+      "tags": ["grammar", "past simple", "leisure"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ my homework when the phone rang.",
+      "correctAnswer": "was doing",
+      "hint": "What was happening when something else occurred?",
+      "explanation": "The past continuous tense is used for actions in progress in the past."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "past continuous",
+      "tags": ["grammar", "past continuous", "interrupted actions"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ to the store before it closed.",
+      "correctAnswer": "had gone",
+      "hint": "What happened before another past event?",
+      "explanation": "The past perfect tense is used for actions that happened before another past action."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "past perfect",
+      "tags": ["grammar", "past perfect", "sequence"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "sentence": "They ___ for three hours when it started to rain.",
+      "correctAnswer": "had been walking",
+      "hint": "How long had they been doing something before it rained?",
+      "explanation": "The past perfect continuous tense is used for actions that were in progress before another past action."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "past perfect continuous",
+      "tags": ["grammar", "past perfect continuous", "duration"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ to the beach if it's sunny tomorrow.",
+      "correctAnswer": "will go",
+      "hint": "What will you do in a future condition?",
+      "explanation": "The first conditional is used for possible future situations."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "first conditional",
+      "tags": ["grammar", "conditionals", "future"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "sentence": "We ___ the movie if we had known it was so good.",
+      "correctAnswer": "would have watched",
+      "hint": "What would you have done in a past situation?",
+      "explanation": "The third conditional is used for hypothetical past situations."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "third conditional",
+      "tags": ["grammar", "conditionals", "hypothetical"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "sentence": "I ___ for this company since 2015.",
+      "correctAnswer": "have been working",
+      "hint": "How long have you been doing this job?",
+      "explanation": "The present perfect continuous tense is used for actions that started in the past and continue to the present."
     },
     "metadata": {
       "englishLevel": "B1",
       "difficulty": "medium",
       "category": "grammar",
-      "subCategory": "past perfect",
-      "tags": ["grammar", "past perfect", "tenses"],
+      "subCategory": "present perfect continuous",
+      "tags": ["grammar", "present perfect", "duration"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
-      "pointsValue": 15,
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "sentence": "The project ___ by the end of this month.",
+      "correctAnswer": "will have been completed",
+      "hint": "What will be finished before a specific time?",
+      "explanation": "The future perfect tense is used for actions that will be completed before a specific time in the future."
+    },
+    "metadata": {
+      "englishLevel": "B1",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "future perfect",
+      "tags": ["grammar", "future perfect", "completion"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "sentence": "If I ___ the truth, I would have told you.",
+      "correctAnswer": "had known",
+      "hint": "What would you have done in a past situation?",
+      "explanation": "The third conditional uses past perfect in the if-clause."
+    },
+    "metadata": {
+      "englishLevel": "B1",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "third conditional",
+      "tags": ["grammar", "conditionals", "hypothetical"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "sentence": "The report ___ by the team last week.",
+      "correctAnswer": "was written",
+      "hint": "What happened to the report?",
+      "explanation": "The past simple passive is used for actions completed in the past."
+    },
+    "metadata": {
+      "englishLevel": "B1",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "passive voice",
+      "tags": ["grammar", "passive", "past"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ to the meeting if she had been invited.",
+      "correctAnswer": "would have come",
+      "hint": "What would she have done in a past situation?",
+      "explanation": "The third conditional uses would have + past participle in the main clause."
+    },
+    "metadata": {
+      "englishLevel": "B1",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "third conditional",
+      "tags": ["grammar", "conditionals", "hypothetical"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "sentence": "The research findings ___ to be published next month.",
+      "correctAnswer": "are due",
+      "hint": "When will the findings be available?",
+      "explanation": "'Are due' is used to indicate scheduled or expected events."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
       "timeLimit": 45,
-      "difficultyMultiplier": 1.2
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The implications of the study ___ far-reaching.",
+      "correctAnswer": "are",
+      "hint": "What is the verb form for plural subject?",
+      "explanation": "Plural subject requires plural verb form."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "agreement",
+      "tags": ["grammar", "agreement", "academic"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The company's success ___ largely to its innovative approach.",
+      "correctAnswer": "is attributable",
+      "hint": "What is the cause of the success?",
+      "explanation": "'Is attributable to' is used to indicate the cause or reason for something."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "vocabulary",
+      "subCategory": "business",
+      "tags": ["vocabulary", "business", "cause and effect"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The findings ___ the need for further investigation.",
+      "correctAnswer": "underscore",
+      "hint": "What do the findings show?",
+      "explanation": "Present simple is used here to state a general truth about the findings."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The research ___ to have significant implications.",
+      "correctAnswer": "is purported",
+      "hint": "What is claimed about the research?",
+      "explanation": "'Is purported' is used to indicate something that is claimed or believed to be true."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The implications of the study's findings ___ far-reaching and multifaceted.",
+      "correctAnswer": "are",
+      "hint": "What is the verb form for plural subject?",
+      "explanation": "Plural subject 'implications' requires plural verb 'are' and consistent adjective forms."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "grammar",
+      "subCategory": "agreement",
+      "tags": ["grammar", "agreement", "academic"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "sentence": "The research ___ to have significant implications for future studies.",
+      "correctAnswer": "is purported",
+      "hint": "What is claimed about the research?",
+      "explanation": "'Is purported' is used to indicate something that is claimed or believed to be true."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "sentence": "The findings ___ the need for further investigation.",
+      "correctAnswer": "underscore",
+      "hint": "What do the findings show?",
+      "explanation": "Present simple is used here to state a general truth about the findings."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "sentence": "The company's success ___ largely to its innovative approach.",
+      "correctAnswer": "is attributable",
+      "hint": "What is the cause of the success?",
+      "explanation": "'Is attributable to' is used to indicate the cause or reason for something."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "business",
+      "tags": ["vocabulary", "business", "cause and effect"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "sentence": "The research findings ___ to be published next month.",
+      "correctAnswer": "are due",
+      "hint": "When will the findings be available?",
+      "explanation": "'Are due' is used to indicate scheduled or expected events."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "sentence": "The implications of the study's findings ___ far-reaching and multifaceted.",
+      "correctAnswer": "are",
+      "hint": "What is the verb form for plural subject?",
+      "explanation": "Plural subject 'implications' requires plural verb 'are' and consistent adjective forms."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "grammar",
+      "subCategory": "agreement",
+      "tags": ["grammar", "agreement", "academic"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
+    }
+  },
+  {
+    "content": {
+      "sentence": "The research ___ to have significant implications for future studies.",
+      "correctAnswer": "is purported",
+      "hint": "What is claimed about the research?",
+      "explanation": "'Is purported' is used to indicate something that is claimed or believed to be true."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
+    }
+  },
+  {
+    "content": {
+      "sentence": "The findings ___ the need for further investigation.",
+      "correctAnswer": "underscore",
+      "hint": "What do the findings show?",
+      "explanation": "Present simple is used here to state a general truth about the findings."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
+    }
+  },
+  {
+    "content": {
+      "sentence": "The company's success ___ largely to its innovative approach.",
+      "correctAnswer": "is attributable",
+      "hint": "What is the cause of the success?",
+      "explanation": "'Is attributable to' is used to indicate the cause or reason for something."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "business",
+      "tags": ["vocabulary", "business", "cause and effect"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
+    }
+  },
+  {
+    "content": {
+      "sentence": "The research findings ___ to be published next month.",
+      "correctAnswer": "are due",
+      "hint": "When will the findings be available?",
+      "explanation": "'Are due' is used to indicate scheduled or expected events."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
     }
   }
 ]

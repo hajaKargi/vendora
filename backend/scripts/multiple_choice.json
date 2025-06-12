@@ -22,14 +22,203 @@
   },
   {
     "content": {
-      "question": "Which sentence is grammatically correct?",
-      "correctAnswer": "She has been studying English for three years.",
+      "question": "Which sentence is correct?",
+      "correctAnswer": "She has a cat.",
+      "wrongAnswers": ["She have a cat.", "She has cat.", "She have cat."],
+      "explanation": "For third person singular (she/he/it), we use 'has' with 'a' before singular countable nouns."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "present simple",
+      "tags": ["grammar", "present simple", "have/has"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: I ___ to school every day.",
+      "correctAnswer": "go",
+      "wrongAnswers": ["goes", "going", "went"],
+      "explanation": "For first person singular (I), we use the base form of the verb in present simple."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "present simple",
+      "tags": ["grammar", "present simple", "verbs"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "They are students.",
+      "wrongAnswers": ["They is students.", "They am students.", "They be students."],
+      "explanation": "For plural subjects (they), we use 'are' as the form of 'to be'."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "to be",
+      "tags": ["grammar", "present simple", "to be"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: She ___ English very well.",
+      "correctAnswer": "speaks",
+      "wrongAnswers": ["speak", "speaking", "spoke"],
+      "explanation": "For third person singular (she), we add -s to the base form of the verb in present simple."
+    },
+    "metadata": {
+      "englishLevel": "A1",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "present simple",
+      "tags": ["grammar", "present simple", "verbs"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 10,
+      "timeLimit": 30,
+      "difficultyMultiplier": 1.0
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "I like playing football.",
+      "wrongAnswers": ["I likes playing football.", "I like play football.", "I like to playing football."],
+      "explanation": "After 'like', we use the -ing form of the verb."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "gerunds",
+      "tags": ["grammar", "gerunds", "verbs"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct past tense: Yesterday, I ___ to the cinema.",
+      "correctAnswer": "went",
+      "wrongAnswers": ["go", "going", "goes"],
+      "explanation": "The past tense of 'go' is 'went'."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "past simple",
+      "tags": ["grammar", "past simple", "irregular verbs"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "Can you help me?",
+      "wrongAnswers": ["Can you helping me?", "Can you helps me?", "Can you to help me?"],
+      "explanation": "After modal verbs like 'can', we use the base form of the verb."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "modals",
+      "tags": ["grammar", "modals", "requests"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: I ___ my homework yesterday.",
+      "correctAnswer": "did",
+      "wrongAnswers": ["do", "does", "doing"],
+      "explanation": "The past tense of 'do' is 'did'."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "past simple",
+      "tags": ["grammar", "past simple", "irregular verbs"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "I want to learn English.",
+      "wrongAnswers": ["I want learning English.", "I want learn English.", "I want to learning English."],
+      "explanation": "After 'want', we use 'to' + base form of the verb."
+    },
+    "metadata": {
+      "englishLevel": "A2",
+      "difficulty": "easy",
+      "category": "grammar",
+      "subCategory": "infinitives",
+      "tags": ["grammar", "infinitives", "verbs"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 15,
+      "timeLimit": 35,
+      "difficultyMultiplier": 1.2
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "I have been studying English for three years.",
       "wrongAnswers": [
-        "She have been studying English for three years.",
-        "She has been study English for three years.",
-        "She has been studied English for three years."
+        "I have been study English for three years.",
+        "I have studying English for three years.",
+        "I have been studied English for three years."
       ],
-      "explanation": "The present perfect continuous tense requires 'has' for third person singular and the present participle form of the verb."
+      "explanation": "The present perfect continuous tense requires 'have been' + present participle."
     },
     "metadata": {
       "englishLevel": "B1",
@@ -40,9 +229,444 @@
       "type": "multiple-choice"
     },
     "gameMetadata": {
-      "pointsValue": 15,
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct conditional: If I ___ rich, I would buy a big house.",
+      "correctAnswer": "were",
+      "wrongAnswers": ["am", "was", "be"],
+      "explanation": "In second conditional, we use 'were' for all persons in the if-clause."
+    },
+    "metadata": {
+      "englishLevel": "B1",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "conditionals",
+      "tags": ["grammar", "conditionals", "subjunctive"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "She has been working here since 2019.",
+      "wrongAnswers": ["She has working here since 2019.", "She has been work here since 2019.", "She has been worked here since 2019."],
+      "explanation": "The present perfect continuous tense is used with 'since' to show duration."
+    },
+    "metadata": {
+      "englishLevel": "B1",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "present perfect continuous",
+      "tags": ["grammar", "present perfect", "continuous"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct phrasal verb: I need to ___ this form.",
+      "correctAnswer": "fill out",
+      "wrongAnswers": ["fill in", "fill up", "fill down"],
+      "explanation": "'Fill out' is used for completing forms or documents."
+    },
+    "metadata": {
+      "englishLevel": "B1",
+      "difficulty": "medium",
+      "category": "vocabulary",
+      "subCategory": "phrasal verbs",
+      "tags": ["vocabulary", "phrasal verbs", "forms"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "I wish I had studied harder for the exam.",
+      "wrongAnswers": [
+        "I wish I studied harder for the exam.",
+        "I wish I have studied harder for the exam.",
+        "I wish I would study harder for the exam."
+      ],
+      "explanation": "After 'wish' about the past, we use the past perfect tense."
+    },
+    "metadata": {
+      "englishLevel": "B1",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "wish",
+      "tags": ["grammar", "wish", "past perfect"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 20,
+      "timeLimit": 40,
+      "difficultyMultiplier": 1.3
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "The report is being written by the team.",
+      "wrongAnswers": ["The report is writing by the team.", "The report is been written by the team.", "The report is wrote by the team."],
+      "explanation": "The present continuous passive uses 'is being' + past participle."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "passive voice",
+      "tags": ["grammar", "passive", "present continuous"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
       "timeLimit": 45,
-      "difficultyMultiplier": 1.2
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: The project ___ by next month.",
+      "correctAnswer": "will have been completed",
+      "wrongAnswers": ["will be completed", "will have completed", "will be completing"],
+      "explanation": "The future perfect passive is used for actions that will be finished before a specific time in the future."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "future perfect",
+      "tags": ["grammar", "future perfect", "passive"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "Not only did she pass the exam, but she also got the highest score.",
+      "wrongAnswers": [
+        "Not only she passed the exam, but she also got the highest score.",
+        "Not only she did pass the exam, but she also got the highest score.",
+        "Not only did she passed the exam, but she also got the highest score."
+      ],
+      "explanation": "After 'Not only' at the beginning of a sentence, we use auxiliary verb + subject + main verb."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "inversion",
+      "tags": ["grammar", "inversion", "emphasis"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: The company ___ to expand its operations.",
+      "correctAnswer": "is seeking",
+      "wrongAnswers": ["seeks", "is seek", "seeking"],
+      "explanation": "The present continuous is used here to emphasize the ongoing nature of the action."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "present continuous",
+      "tags": ["grammar", "present continuous", "business"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "Had I known about the meeting, I would have attended.",
+      "wrongAnswers": [
+        "If I had known about the meeting, I would attend.",
+        "Had I knew about the meeting, I would have attended.",
+        "If I knew about the meeting, I would have attended."
+      ],
+      "explanation": "Inverted third conditional uses 'Had + subject + past participle' without 'if'."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "conditionals",
+      "tags": ["grammar", "conditionals", "inversion"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "Were it not for your help, I would have failed the project.",
+      "wrongAnswers": [
+        "If it were not for your help, I would fail the project.",
+        "Were it not for your help, I would fail the project.",
+        "If it was not for your help, I would have failed the project."
+      ],
+      "explanation": "Inverted conditional with 'were it not for' requires the past perfect in the main clause."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "grammar",
+      "subCategory": "inversion",
+      "tags": ["grammar", "inversion", "conditionals"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: The research findings ___ to be published next month.",
+      "correctAnswer": "are due",
+      "wrongAnswers": ["are due to", "due", "are due for"],
+      "explanation": "'Are due' is used to indicate scheduled or expected events."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "Little did she realize the consequences of her actions.",
+      "wrongAnswers": [
+        "Little she did realize the consequences of her actions.",
+        "Little she realized the consequences of her actions.",
+        "Little did she realized the consequences of her actions."
+      ],
+      "explanation": "After 'Little' at the beginning of a sentence, we use auxiliary verb + subject + base form."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "grammar",
+      "subCategory": "inversion",
+      "tags": ["grammar", "inversion", "emphasis"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: The company's success ___ largely to its innovative approach.",
+      "correctAnswer": "is attributable",
+      "wrongAnswers": ["is attributed", "attributes", "is attributing"],
+      "explanation": "'Is attributable to' is used to indicate the cause or reason for something."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "business",
+      "tags": ["vocabulary", "business", "cause and effect"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "Should you require any assistance, please do not hesitate to contact us.",
+      "wrongAnswers": [
+        "If you should require any assistance, please do not hesitate to contact us.",
+        "Should you required any assistance, please do not hesitate to contact us.",
+        "Should you to require any assistance, please do not hesitate to contact us."
+      ],
+      "explanation": "Inverted conditional with 'should' uses the base form of the verb."
+    },
+    "metadata": {
+      "englishLevel": "C1",
+      "difficulty": "hard",
+      "category": "grammar",
+      "subCategory": "inversion",
+      "tags": ["grammar", "inversion", "formal"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 30,
+      "timeLimit": 50,
+      "difficultyMultiplier": 1.5
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "The implications of the study's findings are far-reaching and multifaceted.",
+      "wrongAnswers": [
+        "The implications of the study's findings is far-reaching and multifaceted.",
+        "The implications of the study's findings are far-reaching and is multifaceted.",
+        "The implications of the study's findings is far-reaching and is multifaceted."
+      ],
+      "explanation": "Plural subject 'implications' requires plural verb 'are' and consistent adjective forms."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "grammar",
+      "subCategory": "agreement",
+      "tags": ["grammar", "agreement", "academic"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: The research ___ to have significant implications for future studies.",
+      "correctAnswer": "is purported",
+      "wrongAnswers": ["purports", "is purporting", "has purported"],
+      "explanation": "'Is purported' is used to indicate something that is claimed or believed to be true."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "Not until the final chapter does the author reveal the true identity of the protagonist.",
+      "wrongAnswers": [
+        "Not until the final chapter the author reveals the true identity of the protagonist.",
+        "Not until the final chapter the author does reveal the true identity of the protagonist.",
+        "Not until the final chapter does the author reveals the true identity of the protagonist."
+      ],
+      "explanation": "After 'Not until' at the beginning of a sentence, we use auxiliary verb + subject + base form."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "grammar",
+      "subCategory": "inversion",
+      "tags": ["grammar", "inversion", "emphasis"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
+    }
+  },
+  {
+    "content": {
+      "question": "Choose the correct word: The findings ___ the need for further investigation.",
+      "correctAnswer": "underscore",
+      "wrongAnswers": ["underscores", "is underscoring", "has underscored"],
+      "explanation": "Present simple is used here to state a general truth about the findings."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "vocabulary",
+      "subCategory": "academic",
+      "tags": ["vocabulary", "academic", "research"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
+    }
+  },
+  {
+    "content": {
+      "question": "Which sentence is correct?",
+      "correctAnswer": "Were the circumstances different, we would have pursued alternative approaches.",
+      "wrongAnswers": [
+        "If the circumstances were different, we would pursue alternative approaches.",
+        "Were the circumstances different, we would pursue alternative approaches.",
+        "If the circumstances was different, we would have pursued alternative approaches."
+      ],
+      "explanation": "Inverted conditional with 'were' requires the past perfect in the main clause."
+    },
+    "metadata": {
+      "englishLevel": "C2",
+      "difficulty": "hard",
+      "category": "grammar",
+      "subCategory": "inversion",
+      "tags": ["grammar", "inversion", "conditionals"],
+      "type": "multiple-choice"
+    },
+    "gameMetadata": {
+      "pointsValue": 35,
+      "timeLimit": 55,
+      "difficultyMultiplier": 1.6
     }
   }
 ]
