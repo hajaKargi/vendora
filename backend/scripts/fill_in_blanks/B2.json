@@ -2,20 +2,16 @@
   {
     "content": {
       "sentence": "The project ___ by month's end.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -26,21 +22,17 @@
   },
   {
     "content": {
-      "sentence": "Had I known",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "sentence": "Had I known, I ___ earlier.",
+      "correctAnswer": "would have left",
+      "hint": "Use the third conditional structure",
+      "explanation": "In third conditional, use 'would have' + past participle."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -52,20 +44,16 @@
   {
     "content": {
       "sentence": "She ___ working here since 2015.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -76,21 +64,17 @@
   },
   {
     "content": {
-      "sentence": "By 2030",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "sentence": "By 2030, we ___ completed the mission.",
+      "correctAnswer": "will have",
+      "hint": "Use future perfect",
+      "explanation": "For actions completed by a future time, use future perfect."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -102,20 +86,16 @@
   {
     "content": {
       "sentence": "He denied ___ the documents.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -127,20 +107,16 @@
   {
     "content": {
       "sentence": "Not only ___ late",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -152,20 +128,16 @@
   {
     "content": {
       "sentence": "The proposal ___ consideration now.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -177,20 +149,16 @@
   {
     "content": {
       "sentence": "___ I been informed",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -202,20 +170,16 @@
   {
     "content": {
       "sentence": "They insisted that he ___ present.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -227,20 +191,16 @@
   {
     "content": {
       "sentence": "The building ___ demolished tomorrow.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -252,20 +212,16 @@
   {
     "content": {
       "sentence": "He ___ have received promotion.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -276,21 +232,17 @@
   },
   {
     "content": {
-      "sentence": "By tomorrow",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "sentence": "By tomorrow, the report ___ submitted.",
+      "correctAnswer": "will have been",
+      "hint": "Use future perfect passive",
+      "explanation": "Use 'will have been' + past participle for passive voice future perfect."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -302,20 +254,16 @@
   {
     "content": {
       "sentence": "The minister ___ to resign tomorrow.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -327,20 +275,16 @@
   {
     "content": {
       "sentence": "___ the weather been better",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -352,20 +296,16 @@
   {
     "content": {
       "sentence": "The contract ___ signed as we speak.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -377,20 +317,16 @@
   {
     "content": {
       "sentence": "I'd rather you ___ earlier.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -402,20 +338,16 @@
   {
     "content": {
       "sentence": "The manuscript ___ translated before publishing.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -427,20 +359,16 @@
   {
     "content": {
       "sentence": "No sooner ___ I arrived than trouble started.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -452,20 +380,16 @@
   {
     "content": {
       "sentence": "The evidence ___ examined thoroughly.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -477,20 +401,16 @@
   {
     "content": {
       "sentence": "He claimed ___ the victim.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -501,21 +421,17 @@
   },
   {
     "content": {
-      "sentence": "By next week",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "sentence": "By next week, they ___ finished the renovation.",
+      "correctAnswer": "will have",
+      "hint": "Use future perfect",
+      "explanation": "Use 'will have' + past participle to express completion before a future time."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -527,20 +443,16 @@
   {
     "content": {
       "sentence": "The law ___ amended last year.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -552,20 +464,16 @@
   {
     "content": {
       "sentence": "Hardly ___ I started when interruption occurred.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -577,20 +485,16 @@
   {
     "content": {
       "sentence": "The results ___ being analyzed.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -602,20 +506,16 @@
   {
     "content": {
       "sentence": "She suggested that he ___ first.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -627,20 +527,16 @@
   {
     "content": {
       "sentence": "The novel ___ adapted into film.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -652,20 +548,16 @@
   {
     "content": {
       "sentence": "Not until yesterday ___ realize.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -677,20 +569,16 @@
   {
     "content": {
       "sentence": "The system ___ maintained regularly.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -702,20 +590,16 @@
   {
     "content": {
       "sentence": "I wish I ___ the opportunity.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -727,20 +611,16 @@
   {
     "content": {
       "sentence": "The ceremony ___ conducted tomorrow.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -752,20 +632,16 @@
   {
     "content": {
       "sentence": "Scarcely ___ I spoken when he reacted.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -777,20 +653,16 @@
   {
     "content": {
       "sentence": "The theory ___ widely accepted.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -802,20 +674,16 @@
   {
     "content": {
       "sentence": "He pretended ___ interested.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -826,21 +694,17 @@
   },
   {
     "content": {
-      "sentence": "By this time next year",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "sentence": "By this time next year, she ___ moved abroad.",
+      "correctAnswer": "will have",
+      "hint": "Use future perfect tense",
+      "explanation": "Use 'will have' + past participle to talk about completed actions in the future."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -852,20 +716,16 @@
   {
     "content": {
       "sentence": "The policy ___ implemented successfully.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -877,20 +737,16 @@
   {
     "content": {
       "sentence": "___ I your position",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -902,20 +758,16 @@
   {
     "content": {
       "sentence": "The data ___ interpreted carefully.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -927,20 +779,16 @@
   {
     "content": {
       "sentence": "He admitted ___ the mistake.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -952,20 +800,16 @@
   {
     "content": {
       "sentence": "The conference ___ hosted annually.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -977,20 +821,16 @@
   {
     "content": {
       "sentence": "Rarely ___ such incompetence.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1002,20 +842,16 @@
   {
     "content": {
       "sentence": "The solution ___ being developed.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1027,20 +863,16 @@
   {
     "content": {
       "sentence": "She demanded that he ___ honest.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1052,20 +884,16 @@
   {
     "content": {
       "sentence": "The painting ___ restored recently.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1077,20 +905,16 @@
   {
     "content": {
       "sentence": "Under no circumstances ___ enter.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1102,20 +926,16 @@
   {
     "content": {
       "sentence": "The procedure ___ followed precisely.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1127,20 +947,16 @@
   {
     "content": {
       "sentence": "I'd sooner you ___ directly.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1152,20 +968,16 @@
   {
     "content": {
       "sentence": "The treaty ___ ratified next month.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1177,20 +989,16 @@
   {
     "content": {
       "sentence": "Barely ___ I finished when time expired.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1202,20 +1010,16 @@
   {
     "content": {
       "sentence": "The technique ___ perfected over years.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1227,20 +1031,16 @@
   {
     "content": {
       "sentence": "He avoided ___ involved.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1251,21 +1051,17 @@
   },
   {
     "content": {
-      "sentence": "By tomorrow morning",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "sentence": "By tomorrow, the report ___ submitted.",
+      "correctAnswer": "will have been",
+      "hint": "Use future perfect passive",
+      "explanation": "Use 'will have been' + past participle for passive voice future perfect."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1277,20 +1073,16 @@
   {
     "content": {
       "sentence": "The tradition ___ preserved carefully.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1302,20 +1094,16 @@
   {
     "content": {
       "sentence": "___ she more experienced",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1327,20 +1115,16 @@
   {
     "content": {
       "sentence": "The findings ___ published soon.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1352,20 +1136,16 @@
   {
     "content": {
       "sentence": "They considered ___ the offer.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1377,20 +1157,16 @@
   {
     "content": {
       "sentence": "The system ___ updated quarterly.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1402,20 +1178,16 @@
   {
     "content": {
       "sentence": "At no time ___ aware of issue.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1427,20 +1199,16 @@
   {
     "content": {
       "sentence": "The manuscript ___ edited currently.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1452,20 +1220,16 @@
   {
     "content": {
       "sentence": "She proposed that we ___ early.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1477,20 +1241,16 @@
   {
     "content": {
       "sentence": "The sculpture ___ displayed publicly.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1502,20 +1262,16 @@
   {
     "content": {
       "sentence": "Little ___ he know the surprise.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1527,20 +1283,16 @@
   {
     "content": {
       "sentence": "The process ___ monitored constantly.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1552,20 +1304,16 @@
   {
     "content": {
       "sentence": "He delayed ___ the decision.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1576,21 +1324,17 @@
   },
   {
     "content": {
-      "sentence": "By next Friday",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "sentence": "By next Friday, we ___ submitted the documents.",
+      "correctAnswer": "will have",
+      "hint": "Use future perfect",
+      "explanation": "Future perfect is used for actions completed by a future date."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1602,20 +1346,16 @@
   {
     "content": {
       "sentence": "The custom ___ practiced for centuries.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1627,20 +1367,16 @@
   {
     "content": {
       "sentence": "___ it not for traffic",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1652,20 +1388,16 @@
   {
     "content": {
       "sentence": "The agreement ___ finalized yesterday.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1677,20 +1409,16 @@
   {
     "content": {
       "sentence": "They postponed ___ the meeting.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1702,20 +1430,16 @@
   {
     "content": {
       "sentence": "The equipment ___ calibrated monthly.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1727,20 +1451,16 @@
   {
     "content": {
       "sentence": "Nowhere ___ better service.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1752,20 +1472,541 @@
   {
     "content": {
       "sentence": "The vaccine ___ tested extensively.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The project ___ by month's end.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "Had I known, I ___ earlier.",
+      "correctAnswer": "would have left",
+      "hint": "Use the third conditional structure",
+      "explanation": "In third conditional, use 'would have' + past participle."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "She ___ working here since 2015.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "By 2030, we ___ completed the mission.",
+      "correctAnswer": "will have",
+      "hint": "Use future perfect",
+      "explanation": "For actions completed by a future time, use future perfect."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "He denied ___ the documents.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "Not only ___ late",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The proposal ___ consideration now.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "___ I been informed",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "They insisted that he ___ present.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The building ___ demolished tomorrow.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "He ___ have received promotion.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "By tomorrow, the report ___ submitted.",
+      "correctAnswer": "will have been",
+      "hint": "Use future perfect passive",
+      "explanation": "Use 'will have been' + past participle for passive voice future perfect."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The minister ___ to resign tomorrow.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "___ the weather been better",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The contract ___ signed as we speak.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "I'd rather you ___ earlier.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The manuscript ___ translated before publishing.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "No sooner ___ I arrived than trouble started.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The evidence ___ examined thoroughly.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "He claimed ___ the victim.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "By next week, they ___ finished the renovation.",
+      "correctAnswer": "will have",
+      "hint": "Use future perfect",
+      "explanation": "Use 'will have' + past participle to express completion before a future time."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The law ___ amended last year.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "Hardly ___ I started when interruption occurred.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "The results ___ being analyzed.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
+      "type": "fill-in-blanks"
+    },
+    "gameMetadata": {
+      "pointsValue": 25,
+      "timeLimit": 45,
+      "difficultyMultiplier": 1.4
+    }
+  },
+  {
+    "content": {
+      "sentence": "She suggested that he ___ first.",
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
+    },
+    "metadata": {
+      "englishLevel": "B2",
+      "difficulty": "medium",
+      "category": "grammar",
+      "subCategory": "general",
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1777,20 +2018,16 @@
   {
     "content": {
       "sentence": "She recommended that he ___ precautions.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1802,20 +2039,16 @@
   {
     "content": {
       "sentence": "The artifact ___ discovered accidentally.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1827,20 +2060,16 @@
   {
     "content": {
       "sentence": "Only after investigation ___ understand.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1852,20 +2081,16 @@
   {
     "content": {
       "sentence": "The formula ___ applied universally.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "has been",
+      "hint": "Use passive voice in present perfect",
+      "explanation": "This sentence likely needs a present perfect passive construction."
     },
     "metadata": {
       "englishLevel": "B2",
       "difficulty": "medium",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "B2"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "B2"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {

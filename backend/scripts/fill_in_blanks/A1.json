@@ -2,20 +2,16 @@
   {
     "content": {
       "sentence": "The sun ___ brightly in the sky.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "shines",
+      "hint": "Use the present simple tense of the verb 'shine'.",
+      "explanation": "The sun regularly shines, so the present simple tense 'shines' is appropriate."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -27,20 +23,16 @@
   {
     "content": {
       "sentence": "My cat ___ milk every morning.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "drinks",
+      "hint": "Think of what a cat does with milk.",
+      "explanation": "The verb 'drinks' fits here because cats typically drink milk and the sentence refers to a daily habit."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -52,20 +44,16 @@
   {
     "content": {
       "sentence": "We ___ to school every day.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "walk",
+      "hint": "Consider the typical way students commute nearby.",
+      "explanation": "Use 'walk' to describe a daily routine in the present simple tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -77,20 +65,16 @@
   {
     "content": {
       "sentence": "She ___ her teeth twice a day.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "brushes",
+      "hint": "What is the verb for cleaning teeth?",
+      "explanation": "Use 'brushes' to describe a repeated daily action, and add -es for third person singular."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -102,20 +86,16 @@
   {
     "content": {
       "sentence": "I ___ a book right now.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "am reading",
+      "hint": "Use the present continuous tense for an action happening right now.",
+      "explanation": "The action is happening now, so 'am reading' (present continuous) is used."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -127,20 +107,16 @@
   {
     "content": {
       "sentence": "They ___ football on Saturdays.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "play",
+      "hint": "Use the base form of the verb for plural subjects in present simple tense.",
+      "explanation": "In present simple, use 'play' with the plural subject 'They'."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -152,20 +128,16 @@
   {
     "content": {
       "sentence": "This ___ my favorite color.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "is",
+      "hint": "Use the verb 'to be' with singular subjects in present simple.",
+      "explanation": "Use 'is' with 'This' in the present simple tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -177,20 +149,16 @@
   {
     "content": {
       "sentence": "Birds ___ in the sky.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "fly",
+      "hint": "Use the base form for plural subject in the present simple tense.",
+      "explanation": "Plural noun 'Birds' takes 'fly' in the present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -202,20 +170,16 @@
   {
     "content": {
       "sentence": "He ___ television after dinner.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "watches",
+      "hint": "Use third person singular form of the verb.",
+      "explanation": "He/She/It takes a verb ending in -s or -es in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -227,20 +191,16 @@
   {
     "content": {
       "sentence": "We ___ in a big city.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "live",
+      "hint": "Use base form with 'we' in present simple.",
+      "explanation": "'We' is plural; use 'live' in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -252,20 +212,16 @@
   {
     "content": {
       "sentence": "The baby ___ when hungry.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "cries",
+      "hint": "Use third person singular present tense form.",
+      "explanation": "'The baby' is singular; 'cries' is correct in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -277,20 +233,16 @@
   {
     "content": {
       "sentence": "I ___ coffee in the morning.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "drink",
+      "hint": "Use the base form for 'I' in present simple.",
+      "explanation": "'I' uses the base form 'drink' in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -302,20 +254,16 @@
   {
     "content": {
       "sentence": "She ___ to music every evening.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "listens",
+      "hint": "Use third person singular present tense form.",
+      "explanation": "'She' takes 'listens' in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -327,20 +275,16 @@
   {
     "content": {
       "sentence": "They ___ their homework together.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "do",
+      "hint": "Use base form with plural subject.",
+      "explanation": "Use 'do' with 'they' in present simple tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -352,20 +296,16 @@
   {
     "content": {
       "sentence": "Dogs ___ bones.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "like",
+      "hint": "Use base form with plural noun.",
+      "explanation": "'Dogs' is plural, so use 'like'."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -377,20 +317,16 @@
   {
     "content": {
       "sentence": "The store ___ at 9 AM.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "opens",
+      "hint": "Use third person singular present tense form.",
+      "explanation": "'The store' is singular; use 'opens' in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -402,20 +338,16 @@
   {
     "content": {
       "sentence": "We ___ apples from the market.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "buy",
+      "hint": "Use base form with 'we' in present simple.",
+      "explanation": "'We' takes the base verb 'buy'."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -427,20 +359,16 @@
   {
     "content": {
       "sentence": "She ___ her grandmother every Sunday.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "visits",
+      "hint": "Use third person singular present tense form.",
+      "explanation": "'She' takes 'visits' in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -452,20 +380,16 @@
   {
     "content": {
       "sentence": "The teacher ___ at the board.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "points",
+      "hint": "Use third person singular present tense form.",
+      "explanation": "'The teacher' is singular, so use 'points'."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -477,20 +401,16 @@
   {
     "content": {
       "sentence": "Children ___ to play outside.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "like",
+      "hint": "Use base form with plural subject.",
+      "explanation": "'Children' is plural, so use 'like'."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -502,20 +422,16 @@
   {
     "content": {
       "sentence": "I ___ my bed every morning.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "make",
+      "hint": "Use the base form of the verb for 'I' in present simple tense.",
+      "explanation": "'Make' is the correct verb to use with 'I' for a habitual action."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -527,20 +443,16 @@
   {
     "content": {
       "sentence": "He ___ a blue shirt today.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "is wearing",
+      "hint": "Use present continuous for an action happening now.",
+      "explanation": "The action is happening today, so 'is wearing' is appropriate."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -552,20 +464,16 @@
   {
     "content": {
       "sentence": "The bus ___ at 8 o'clock.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "leaves",
+      "hint": "Use present simple for schedules.",
+      "explanation": "We use present simple to describe scheduled events."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -577,20 +485,16 @@
   {
     "content": {
       "sentence": "We ___ English in class.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "speak",
+      "hint": "Use present simple for regular classroom activity.",
+      "explanation": "'Speak' is correct for a regular habit or routine."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -602,20 +506,16 @@
   {
     "content": {
       "sentence": "She ___ the piano beautifully.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "plays",
+      "hint": "Use third-person singular present simple.",
+      "explanation": "With 'she', we add -s to the verb in present simple tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -627,20 +527,16 @@
   {
     "content": {
       "sentence": "They ___ in a small house.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "live",
+      "hint": "Use present simple for facts or permanent situations.",
+      "explanation": "'Live' is used for permanent or long-term situations."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -652,20 +548,16 @@
   {
     "content": {
       "sentence": "The flowers ___ in spring.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "bloom",
+      "hint": "Use present simple for seasonal changes.",
+      "explanation": "Blooming is a recurring action in spring, so present simple is used."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -677,20 +569,16 @@
   {
     "content": {
       "sentence": "I ___ my keys on the table.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "put",
+      "hint": "Use present simple for habitual placement.",
+      "explanation": "'Put' is an irregular verb; the base form is the same in present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -702,20 +590,16 @@
   {
     "content": {
       "sentence": "He ___ his car to work.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "drives",
+      "hint": "Use present simple third-person singular.",
+      "explanation": "'Drives' is correct for 'he' in the present simple tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -727,20 +611,16 @@
   {
     "content": {
       "sentence": "We ___ lunch at noon.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "eat",
+      "hint": "Use present simple for regular meal times.",
+      "explanation": "'Eat' is correct for a regular activity like having lunch."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -752,20 +632,16 @@
   {
     "content": {
       "sentence": "The dog ___ in the garden.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "plays",
+      "hint": "Use present simple for a third-person singular subject.",
+      "explanation": "'Plays' is used because the subject is third-person singular."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -777,20 +653,16 @@
   {
     "content": {
       "sentence": "She ___ pictures of animals.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "draws",
+      "hint": "Use present simple with 'she'.",
+      "explanation": "'Draws' is correct because 'she' requires third-person singular form."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -802,20 +674,16 @@
   {
     "content": {
       "sentence": "They ___ to the radio daily.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "listen",
+      "hint": "Use present simple for daily routines.",
+      "explanation": "'Listen' is correct for habitual activities like listening to the radio."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -827,20 +695,16 @@
   {
     "content": {
       "sentence": "I ___ a sandwich for breakfast.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "eat",
+      "hint": "Use present simple for a routine action.",
+      "explanation": "'Eat' is correct for actions that are part of a regular routine."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -852,20 +716,16 @@
   {
     "content": {
       "sentence": "The moon ___ at night.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "shines",
+      "hint": "Use present simple for natural phenomena.",
+      "explanation": "The moon shines every night, so present simple is used."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -877,20 +737,16 @@
   {
     "content": {
       "sentence": "We ___ our hands before eating.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "wash",
+      "hint": "Use present simple for hygiene routines.",
+      "explanation": "'Wash' is the correct verb for routine actions like this."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -902,20 +758,16 @@
   {
     "content": {
       "sentence": "He ___ the door when entering.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "opens",
+      "hint": "Use present simple for regular actions.",
+      "explanation": "'Opens' is correct for third-person singular in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -927,20 +779,16 @@
   {
     "content": {
       "sentence": "She ___ a letter to her friend.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "writes",
+      "hint": "Use third-person singular form in present simple.",
+      "explanation": "'Writes' is correct for 'she' in present simple."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -952,20 +800,16 @@
   {
     "content": {
       "sentence": "The phone ___ when I'm sleeping.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "rings",
+      "hint": "Use present simple for events that happen repeatedly.",
+      "explanation": "'Rings' is the right verb for an event that interrupts another."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -977,20 +821,16 @@
   {
     "content": {
       "sentence": "They ___ basketball on weekends.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "play",
+      "hint": "Use present simple for regular weekend activity.",
+      "explanation": "'Play' is used for hobbies or regular activities."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1002,20 +842,16 @@
   {
     "content": {
       "sentence": "I ___ a shower every evening.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "take",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'take' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1027,20 +863,16 @@
   {
     "content": {
       "sentence": "The wind ___ strongly today.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "blows",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'blows' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1052,20 +884,16 @@
   {
     "content": {
       "sentence": "She ___ her hair every morning.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "brushes",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'brushes' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1077,20 +905,16 @@
   {
     "content": {
       "sentence": "We ___ the bus to downtown.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "take",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'take' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1102,20 +926,16 @@
   {
     "content": {
       "sentence": "He ___ his homework carefully.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "does",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'does' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1127,20 +947,16 @@
   {
     "content": {
       "sentence": "The baby ___ when happy.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "laughs",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'laughs' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1152,20 +968,16 @@
   {
     "content": {
       "sentence": "I ___ to music while working.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "listen",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'listen' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1177,20 +989,16 @@
   {
     "content": {
       "sentence": "They ___ in an apartment building.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "live",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'live' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1202,20 +1010,16 @@
   {
     "content": {
       "sentence": "The clock ___ twelve times at noon.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "chimes",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'chimes' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1227,20 +1031,16 @@
   {
     "content": {
       "sentence": "She ___ vegetables at the market.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "buys",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'buys' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1252,20 +1052,16 @@
   {
     "content": {
       "sentence": "We ___ our grandparents on holidays.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "visit",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'visit' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1277,20 +1073,16 @@
   {
     "content": {
       "sentence": "He ___ a newspaper every morning.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "reads",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'reads' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1302,20 +1094,16 @@
   {
     "content": {
       "sentence": "The train ___ from platform 3.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "leaves",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'leaves' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1327,20 +1115,16 @@
   {
     "content": {
       "sentence": "I ___ my face after waking up.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "wash",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'wash' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1352,20 +1136,16 @@
   {
     "content": {
       "sentence": "They ___ the dishes together.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "wash",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'wash' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1377,20 +1157,16 @@
   {
     "content": {
       "sentence": "She ___ her room every weekend.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "cleans",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'cleans' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1402,20 +1178,16 @@
   {
     "content": {
       "sentence": "The river ___ to the sea.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "flows",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'flows' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1427,20 +1199,16 @@
   {
     "content": {
       "sentence": "We ___ our teeth before bed.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "brush",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'brush' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1452,20 +1220,16 @@
   {
     "content": {
       "sentence": "He ___ emails to his colleagues.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "sends",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'sends' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1477,20 +1241,16 @@
   {
     "content": {
       "sentence": "I ___ shopping on Saturdays.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "go",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'go' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1502,20 +1262,16 @@
   {
     "content": {
       "sentence": "The stars ___ at night.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "shine",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'shine' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1527,20 +1283,16 @@
   {
     "content": {
       "sentence": "She ___ French and Spanish.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "speaks",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'speaks' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1552,20 +1304,16 @@
   {
     "content": {
       "sentence": "They ___ coffee after dinner.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "drink",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'drink' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1577,20 +1325,16 @@
   {
     "content": {
       "sentence": "The computer ___ quickly.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "works",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'works' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1602,20 +1346,16 @@
   {
     "content": {
       "sentence": "We ___ photos during vacation.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "take",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'take' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1627,20 +1367,16 @@
   {
     "content": {
       "sentence": "He ___ his bike to school.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "rides",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'rides' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1652,20 +1388,16 @@
   {
     "content": {
       "sentence": "I ___ breakfast at 7 AM.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "eat",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'eat' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1677,20 +1409,16 @@
   {
     "content": {
       "sentence": "The door ___ when it's windy.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "bangs",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'bangs' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1702,20 +1430,16 @@
   {
     "content": {
       "sentence": "She ___ novels before sleeping.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "reads",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'reads' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1727,20 +1451,16 @@
   {
     "content": {
       "sentence": "They ___ the windows when hot.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "open",
+      "hint": "Use simple present tense and subject-verb agreement.",
+      "explanation": "The correct verb is 'open' which fits grammatically in the sentence in the present tense."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1749,23 +1469,20 @@
       "difficultyMultiplier": 1.0
     }
   },
+
   {
     "content": {
       "sentence": "We ___ hands when greeting.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "shake",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'shake' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1777,20 +1494,16 @@
   {
     "content": {
       "sentence": "He ___ a shower after sports.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "takes",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'takes' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1802,20 +1515,16 @@
   {
     "content": {
       "sentence": "I ___ the floor every Friday.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "clean",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'clean' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1827,20 +1536,16 @@
   {
     "content": {
       "sentence": "The baby ___ when tired.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "cries",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'cries' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1852,20 +1557,16 @@
   {
     "content": {
       "sentence": "She ___ her lunch to work.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "brings",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'brings' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1877,20 +1578,16 @@
   {
     "content": {
       "sentence": "They ___ TV in the evening.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "watch",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'watch' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1902,20 +1599,16 @@
   {
     "content": {
       "sentence": "The sun ___ in the east.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "rises",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'rises' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1927,20 +1620,16 @@
   {
     "content": {
       "sentence": "We ___ our pets every day.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "feed",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'feed' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1952,20 +1641,16 @@
   {
     "content": {
       "sentence": "He ___ the guitar in a band.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "plays",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'plays' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -1977,20 +1662,16 @@
   {
     "content": {
       "sentence": "I ___ letters to my friends.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "write",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'write' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2002,20 +1683,16 @@
   {
     "content": {
       "sentence": "The plane ___ at 3 PM.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "lands",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'lands' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2027,20 +1704,16 @@
   {
     "content": {
       "sentence": "She ___ her car on weekends.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "washes",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'washes' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2052,20 +1725,16 @@
   {
     "content": {
       "sentence": "They ___ hiking in summer.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "go",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'go' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2077,20 +1746,16 @@
   {
     "content": {
       "sentence": "We ___ juice for breakfast.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "drink",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'drink' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2102,20 +1767,16 @@
   {
     "content": {
       "sentence": "He ___ a tie for meetings.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "wears",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'wears' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2127,20 +1788,16 @@
   {
     "content": {
       "sentence": "I ___ my hair after washing.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "comb",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'comb' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2152,20 +1809,16 @@
   {
     "content": {
       "sentence": "The cat ___ on the sofa.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "sleeps",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'sleeps' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2177,20 +1830,16 @@
   {
     "content": {
       "sentence": "She ___ maps for directions.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "uses",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'uses' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2202,20 +1851,16 @@
   {
     "content": {
       "sentence": "They ___ the news every night.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "watch",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'watch' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2227,20 +1872,16 @@
   {
     "content": {
       "sentence": "The light ___ when it's dark.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "shines",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'shines' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2252,20 +1893,16 @@
   {
     "content": {
       "sentence": "We ___ our shoes at home.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "wear",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'wear' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2277,20 +1914,16 @@
   {
     "content": {
       "sentence": "He ___ stories to children.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "reads",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'reads' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2302,20 +1935,16 @@
   {
     "content": {
       "sentence": "I ___ tea with honey.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "drink",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'drink' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2327,20 +1956,16 @@
   {
     "content": {
       "sentence": "The phone ___ for emergencies.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "rings",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'rings' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2352,20 +1977,16 @@
   {
     "content": {
       "sentence": "She ___ a diary every night.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "writes",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'writes' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2377,20 +1998,16 @@
   {
     "content": {
       "sentence": "They ___ at restaurants sometimes.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "eat",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'eat' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2402,20 +2019,16 @@
   {
     "content": {
       "sentence": "We ___ coats in winter.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "wear",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'wear' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2427,20 +2040,16 @@
   {
     "content": {
       "sentence": "He ___ medicine when sick.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "takes",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'takes' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2452,20 +2061,16 @@
   {
     "content": {
       "sentence": "I ___ the window for fresh air.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "open",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'open' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
@@ -2477,20 +2082,16 @@
   {
     "content": {
       "sentence": "The birds ___ early morning.",
-      "correctAnswer": "___",
-      "hint": "Use appropriate grammar for the blank",
-      "explanation": "Pay attention to verb tense, agreement, and grammar rules."
+      "correctAnswer": "sing",
+      "hint": "Use the present simple tense. Consider the subject of the sentence.",
+      "explanation": "The verb 'sing' is in the present simple tense and matches the subject of the sentence."
     },
     "metadata": {
       "englishLevel": "A1",
       "difficulty": "easy",
       "category": "grammar",
       "subCategory": "general",
-      "tags": [
-        "grammar",
-        "fill-in-the-blank",
-        "A1"
-      ],
+      "tags": ["grammar", "fill-in-the-blank", "A1"],
       "type": "fill-in-blanks"
     },
     "gameMetadata": {
