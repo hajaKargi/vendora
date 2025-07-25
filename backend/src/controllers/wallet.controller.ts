@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { ethers } from "ethers";
+import { StrKey, Keypair } from "@stellar/stellar-sdk";
 import asyncHandler from "../middlewares/async";
 import { SuccessResponse } from "../core/api/ApiResponse";
 import { BadRequestError } from "../core/api/ApiError";
@@ -9,9 +9,9 @@ export const generateWalletChallenge = asyncHandler(
   async (req: Request, res: Response) => {
     const { walletAddress } = req.body;
 
-    // Validate wallet address format
-    if (!ethers.isAddress(walletAddress)) {
-      throw new BadRequestError("Invalid wallet address format");
+    // Validate Stellar wallet address format
+    if (!StrKey.isValidEd25519PublicKey(walletAddress)) {
+      throw new BadRequestError("Invalid Stellar wallet address format");
     }
 
     // Generate a random nonce
@@ -59,12 +59,13 @@ export const verifyWalletSignature = asyncHandler(
     }
 
     try {
-      // Verify signature
-      const messageHash = ethers.hashMessage(challenge.message);
-      const recoveredAddress = ethers.recoverAddress(messageHash, signature);
+      // Verify Stellar signature
+      const keypair = Keypair.fromPublicKey(walletAddress);
+      const messageBuffer = Buffer.from(challenge.message);
+      const signatureBuffer = Buffer.from(signature, 'base64');
+      const isValid = keypair.verify(messageBuffer, signatureBuffer);
 
-      // Check if the recovered address matches the claimed wallet address
-      if (recoveredAddress.toLowerCase() !== walletAddress.toLowerCase()) {
+      if (!isValid) {
         throw new BadRequestError("Invalid signature");
       }
 
