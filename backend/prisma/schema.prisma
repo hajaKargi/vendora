@@ -75,3 +75,30 @@ model Question {
 
   @@map("questions")
 }
+
+model Achievement {
+  id               String   @id @default(uuid())
+  name             String
+  description      String
+  category         String
+  requirementType  String
+  requirementValue Int
+  xpBonus          Int      @default(0)
+  badgeUrl         String?
+  rarity           String   @default("common")
+  isActive         Boolean  @default(true)
+  createdAt        DateTime @default(now())
+  userAchievements UserAchievement[]
+}
+
+model UserAchievement {
+  id             String     @id @default(uuid())
+  userId         String
+  achievementId  String
+  earnedAt       DateTime   @default(now())
+  progressValue  Int        @default(0)
+  isNotified     Boolean    @default(false)
+  user           User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement    Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+  @@unique([userId, achievementId])
+}
