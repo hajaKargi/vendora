@@ -21,7 +21,7 @@ export class BadgeService {
 	// Notify user of badge (e.g., send email)
 	async notifyUserOfBadge(userId: string, badgeId: string) {
 		const user = await prisma.user.findUnique({ where: { id: userId } });
-		const badge = await this.getBadgeMetadata(badgeId);
+		const badge = await prisma.achievement.findUnique({ where: { id: badgeId } });
 		if (!user || !badge) return;
 		try {
 			const EmailNotifier = (await import('../utils/service/emailNotifier')).default;
@@ -30,7 +30,7 @@ export class BadgeService {
 				badge.name,
 				badge.description,
 				badge.badgeUrl,
-				0 // XP bonus for badge notification only
+				badge.xpBonus ?? 0 // XP bonus dynamically from achievement data
 			);
 		} catch (err) {
 			// Log but do not block
@@ -40,10 +40,12 @@ export class BadgeService {
 
 	// Generate achievement certificate/summary (could be a PDF, image, or data object)
 	async generateCertificate(userId: string, achievementId: string) {
+		if (!userId || typeof userId !== 'string' || userId.trim() === '') return null;
+		if (!achievementId || typeof achievementId !== 'string' || achievementId.trim() === '') return null;
 		const user = await prisma.user.findUnique({ where: { id: userId } });
 		const achievement = await prisma.achievement.findUnique({ where: { id: achievementId } });
 		if (!user || !achievement) return null;
-		// Return a summary object
+		// Return a summary object (TODO: implement PDF generation in future)
 		const summary = {
 			userName: user.firstName + ' ' + user.lastName,
 			achievementName: achievement.name,
@@ -51,8 +53,7 @@ export class BadgeService {
 			badgeUrl: achievement.badgeUrl,
 			date: new Date().toISOString(),
 		};
-		// PDF generation stub (implement with a library like pdfkit if needed)
-		// e.g., generate PDF and return file path or buffer
+		// TODO: PDF/image generation can be added here using a library like pdfkit
 		return summary;
 	}
 }

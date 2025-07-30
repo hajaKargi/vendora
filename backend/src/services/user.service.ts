@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient, Prisma } from "@prisma/client";
 import { InternalError } from "../core/api/ApiError";
 
 const prisma = new PrismaClient();
@@ -15,7 +15,7 @@ class UserService {
       userData;
 
     try {
-      const result = await prisma.$transaction(async (tx: any) => {
+  const result = await prisma.$transaction(async (tx: Prisma.TransactionClient) => {
         const newUser = await tx.user.create({
           data: {
             email,

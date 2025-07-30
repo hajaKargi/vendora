@@ -23,7 +23,12 @@ export class AchievementController {
       const data = await achievementService.getUserAchievements(userId);
       return res.status(200).json({ success: true, data });
     } catch (error) {
-      return res.status(500).json({ success: false, message: 'Failed to fetch achievements.' });
+      const isDev = process.env.SERVER_ENVIRONMENT === 'DEVELOPMENT';
+      return res.status(500).json({
+        success: false,
+        message: 'Failed to fetch achievements.',
+        error: isDev ? ((error as Error)?.message || (error as Error)?.stack || String(error)) : undefined
+      });
     }
   }
 
@@ -34,7 +39,12 @@ export class AchievementController {
       const leaderboard = await achievementService.getLeaderboard();
       return res.status(200).json({ success: true, data: leaderboard });
     } catch (error) {
-      return res.status(500).json({ success: false, message: 'Failed to fetch leaderboard.' });
+      const isDev = process.env.SERVER_ENVIRONMENT === 'DEVELOPMENT';
+      return res.status(500).json({
+        success: false,
+        message: 'Failed to fetch leaderboard.',
+        error: isDev ? ((error as Error)?.message || (error as Error)?.stack || String(error)) : undefined
+      });
     }
   }
 
@@ -45,7 +55,12 @@ export class AchievementController {
       const achievements = await achievementService.getAchievementCatalog();
       return res.status(200).json({ success: true, data: achievements });
     } catch (error) {
-      return res.status(500).json({ success: false, message: 'Failed to fetch achievement catalog.' });
+      const isDev = process.env.SERVER_ENVIRONMENT === 'DEVELOPMENT';
+      return res.status(500).json({
+        success: false,
+        message: 'Failed to fetch achievement catalog.',
+        error: isDev ? ((error as Error)?.message || (error as Error)?.stack || String(error)) : undefined
+      });
     }
   }
 }

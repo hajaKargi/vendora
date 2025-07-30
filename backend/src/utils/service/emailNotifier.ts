@@ -9,6 +9,25 @@ class EmailNotifier {
     await mailer.sendTextEmail(email, subject, message);
   }
 
+  // Helper to escape HTML special characters
+  private static escapeHtml(str: string): string {
+    return str.replace(/[&<>'"/]/g, function (c) {
+      return ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        "'": '&#39;',
+        '"': '&quot;',
+        '/': '&#x2F;'
+      } as any)[c] || c;
+    });
+  }
+
+  // Helper to validate badgeUrl (basic check for http/https and no javascript:)
+  private static isSafeUrl(url: string): boolean {
+    return /^https?:\/\//.test(url) && !/^javascript:/i.test(url);
+  }
+
   public static async sendAchievementEmail(
     email: string,
     achievementName: string,
@@ -16,13 +35,16 @@ class EmailNotifier {
     badgeUrl: string,
     xpBonus: number
   ) {
-    const subject = `🎉 You've earned a new achievement: ${achievementName}!`;
+    const safeName = this.escapeHtml(achievementName);
+    const safeDesc = this.escapeHtml(achievementDescription);
+    const safeBadgeUrl = this.isSafeUrl(badgeUrl) ? badgeUrl : '';
+    const subject = `🎉 You've earned a new achievement: ${safeName}!`;
     const message = `
       <div style="font-family:Arial,sans-serif;">
         <h2>Congratulations!</h2>
-        <p>You've earned the <b>"${achievementName}"</b> badge.</p>
-        <p>${achievementDescription}</p>
-        <img src="${badgeUrl}" alt="Badge" style="height:64px;">
+        <p>You've earned the <b>"${safeName}"</b> badge.</p>
+        <p>${safeDesc}</p>
+        ${safeBadgeUrl ? `<img src="${safeBadgeUrl}" alt="Badge" style="height:64px;">` : ''}
         <p><b>Bonus XP:</b> +${xpBonus}</p>
         <p>Keep up the amazing progress!</p>
       </div>

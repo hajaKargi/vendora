@@ -1,12 +1,24 @@
 
+
+
 	import { PrismaClient } from '@prisma/client';
+
+	export interface LeaderboardUser {
+		userId: string;
+		name: string;
+		email: string;
+		achievementsCount: number;
+	}
 
 	const prisma = new PrismaClient();
 
 	export class AchievementService {
 		// Get leaderboard for achievements (e.g., by total achievements earned)
-		async getLeaderboard() {
+		async getLeaderboard(page: number = 1, pageSize: number = 20): Promise<LeaderboardUser[]> {
+			const skip = (page - 1) * pageSize;
 			const users = await prisma.user.findMany({
+				skip,
+				take: pageSize,
 				select: {
 					id: true,
 					firstName: true,
@@ -17,12 +29,12 @@
 					}
 				}
 			});
-			const leaderboard = users.map((u: any) => ({
+			const leaderboard: LeaderboardUser[] = users.map((u: any) => ({
 				userId: u.id,
 				name: `${u.firstName ?? ''} ${u.lastName ?? ''}`.trim(),
 				email: u.email,
 				achievementsCount: u.userAchievements.length
-			})).sort((a: any, b: any) => b.achievementsCount - a.achievementsCount).slice(0, 20);
+			})).sort((a: LeaderboardUser, b: LeaderboardUser) => b.achievementsCount - a.achievementsCount);
 			return leaderboard;
 		}
 	// Check user progress against achievement requirements and award achievements

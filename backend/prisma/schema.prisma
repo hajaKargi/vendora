@@ -96,9 +96,11 @@ model UserAchievement {
   userId         String
   achievementId  String
   earnedAt       DateTime   @default(now())
-  progressValue  Int        @default(0)
+  /// remainingProgress: 0 means achievement completed, >0 means in-progress
+  remainingProgress  Int        @default(0)
   isNotified     Boolean    @default(false)
   user           User       @relation(fields: [userId], references: [id], onDelete: Cascade)
   achievement    Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
   @@unique([userId, achievementId])
+  @@index([remainingProgress])
 }
