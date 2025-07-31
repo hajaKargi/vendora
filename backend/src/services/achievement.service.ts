@@ -108,7 +108,7 @@
 						user.email,
 						achievement.name,
 						achievement.description,
-						achievement.badgeUrl,
+						achievement.badgeUrl ?? '',
 						achievement.xpBonus
 					);
 				}

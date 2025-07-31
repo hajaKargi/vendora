@@ -29,8 +29,8 @@ export class BadgeService {
 				user.email,
 				badge.name,
 				badge.description,
-				badge.badgeUrl,
-				badge.xpBonus ?? 0 // XP bonus dynamically from achievement data
+				badge.badgeUrl ?? '',
+				badge.xpBonus ?? 0 
 			);
 		} catch (err) {
 			// Log but do not block
