@@ -26,6 +26,28 @@ enum DifficultyLevel {
   ADVANCED     @map("advanced")
 }
 
+enum AchievementCategory {
+  GENERAL      @map("general")
+  XP           @map("xp")
+  STREAK       @map("streak")
+  MASTERY      @map("mastery")
+  SPECIAL      @map("special")
+}
+
+enum AchievementRequirementType {
+  XP_TOTAL     @map("xp_total")
+  STREAK_DAYS  @map("streak_days")
+  MASTERY      @map("mastery")
+  SPECIAL      @map("special")
+}
+
+enum AchievementRarity {
+  COMMON       @map("common")
+  RARE         @map("rare")
+  EPIC         @map("epic")
+  LEGENDARY    @map("legendary")
+}
+
 model User {
   id             String    @id @default(uuid())
   email          String    @unique
@@ -81,17 +103,19 @@ model Question {
 
 model Achievement {
   id               String   @id @default(uuid())
-  name             String
+  name             String   @unique
   description      String
-  category         String
-  requirementType  String
+  category         AchievementCategory
+  requirementType  AchievementRequirementType
   requirementValue Int
   xpBonus          Int      @default(0)
   badgeUrl         String?
-  rarity           String   @default("common")
+  rarity           AchievementRarity   @default(COMMON)
   isActive         Boolean  @default(true)
   createdAt        DateTime @default(now())
   userAchievements UserAchievement[]
+
+  @@index([isActive])
 }
 
 model UserAchievement {
