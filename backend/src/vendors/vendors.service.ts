@@ -7,7 +7,7 @@ import { firstValueFrom } from 'rxjs';
 import { AuthService } from '../auth/auth.service';
 import { VendorResponse } from './interfaces/vendor-response.interface';
 import { CreateVendorDto } from './dto/create-vendor.dto';
-import { SendGridEmailService } from '../common/email/sendgrid-email.service';
+import { EmailNotificationService } from '../common/email/email-notification.service';
 
 @Injectable()
 export class VendorsService {
@@ -17,7 +17,7 @@ export class VendorsService {
     private readonly httpService: HttpService,
     private readonly authService: AuthService,
     private readonly configService: ConfigService,
-    private readonly emailService: SendGridEmailService,
+    private readonly emailNotificationService: EmailNotificationService,
   ) {}
 
   //findOne Vendor
@@ -160,7 +160,7 @@ export class VendorsService {
       );
       // Send welcome email after successful creation
       if (dto.PrimaryEmailAddress && dto.VendorName) {
-        await this.emailService.sendVendorWelcomeEmail(dto.PrimaryEmailAddress, dto.VendorName);
+        await this.emailNotificationService.sendVendorWelcomeEmail(dto.PrimaryEmailAddress, dto.VendorName);
       }
       return response.data;
     } catch (error) {

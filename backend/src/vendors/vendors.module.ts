@@ -9,7 +9,8 @@ import { VendorGroupsController } from './vendor-group/vendor-groups.controller'
 import { VendorGroupsService } from './vendor-group/vendor-groups.service';
 import { VendorsByVnedorGroupController } from './vendor-group/vendors-by-vendorgroup.controller';
 import { VendorsByVendorGroupService } from './vendor-group/vendors-by-vendorgroup.service';
-import { SendGridEmailService } from '../common/email/sendgrid-email.service';
+import { SmtpEmailService } from '../common/email/smtp-email.service';
+import { EmailNotificationService } from '../common/email/email-notification.service';
 
 @Module({
   imports: [AuthModule, HttpModule],
@@ -24,7 +25,8 @@ import { SendGridEmailService } from '../common/email/sendgrid-email.service';
     VendorPaymentMethodsService,
     VendorGroupsService,
     VendorsByVendorGroupService,
-    SendGridEmailService,
+    SmtpEmailService,
+    EmailNotificationService,
   ],
   exports: [VendorsService, VendorPaymentMethodsService, VendorGroupsService],
 })

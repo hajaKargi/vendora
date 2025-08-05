@@ -87,13 +87,4 @@ export class CreateVendorDto {
   @IsString()
   VendorAccountNumber?: string;
 
-
-  @ApiPropertyOptional({
-    example: '12345',
-    description: 'SwiftCode for the vendor',
-  })
-  @IsOptional()
-  @IsString()
-  swiftCode?: string;
-
 }
