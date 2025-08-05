@@ -1,276 +1,256 @@
-# AURORA Backend
+# VendorOnboarding_API
 
-## 🚀 Project Overview
+A robust API for automating vendor onboarding, registration, and compliance workflows, integrated with Microsoft Dynamics 365 Finance & Operations (F&O). Built with [NestJS](https://nestjs.com/) for scalability and maintainability.
 
-AURORA is a cutting-edge backend application designed to provide robust authentication and wallet management services. Built with TypeScript, Express, and PostgreSQL, the project offers secure user registration, email verification, and blockchain wallet integration.
+## Table of Contents
 
-## 📋 Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Variables](#environment-variables)
+- [Running the Application](#running-the-application)
+- [API Documentation (OpenAPI/Swagger)](#api-documentation-openapiswagger)
+- [Business Logic & Workflows](#business-logic--workflows)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Contact](#contact)
 
-- [AURORA Backend](#aurora-backend)
-  - [🚀 Project Overview](#-project-overview)
-  - [📋 Table of Contents](#-table-of-contents)
-  - [🌟 Features](#-features)
-  - [💻 Technologies](#-technologies)
-  - [🛠 Prerequisites](#-prerequisites)
-  - [🔧 Installation](#-installation)
-  - [📝 Configuration](#-configuration)
-    - [Environment Variables](#environment-variables)
-  - [💾 Database Setup (GUI)](#-database-setup-gui)
-  - [🛠️ Setting up the Database in pgAdmin](#️-setting-up-the-database-in-pgadmin)
-    - [Launch pgAdmin](#launch-pgadmin)
-    - [Connect to a Server](#connect-to-a-server)
-  - [Create a New Database](#create-a-new-database)
-  - [🔨 Create Tables in pgAdmin with SQL Query Tool](#-create-tables-in-pgadmin-with-sql-query-tool)
-  - [🧪 Verify Your Setup](#-verify-your-setup)
-  - [💾 Database Setup (CLI)](#-database-setup-cli)
-    - [Option 1: Local PostgreSQL](#option-1-local-postgresql)
-    - [Option 2: Docker (Recommended)](#option-2-docker-recommended)
-    - [Database Migrations](#database-migrations)
-  - [🚀 Running the Application](#-running-the-application)
-    - [Development Mode](#development-mode)
-    - [Production Build](#production-build)
-  - [🧪 Testing](#-testing)
-    - [Run Tests](#run-tests)
-    - [Run Tests with Coverage](#run-tests-with-coverage)
-  - [🔒 Security Features](#-security-features)
-  - [🤝 Contributing](#-contributing)
-  - [📄 License](#-license)
-  - [📞 Contact](#-contact)
+## Overview
 
-## 🌟 Features
+VendorOnboarding_API is the backend for the Leadway Vendor Management Portal.  
+It streamlines vendor registration, approval workflows, and integration with F&O, ensuring compliance, data integrity, and operational efficiency.
 
-- 🔐 Secure User Authentication
-- 📧 Email Verification System
-- 🏦 Wallet Address Validation
-- 🔒 JWT-based Authorization
-- 💾 PostgreSQL Database Integration
-- 🧪 Comprehensive Test Coverage
+**Main value:**
 
-## 💻 Technologies
+- Reduces vendor onboarding time
+- Automates compliance checks and approvals
+- Provides seamless integration with internal Finance & Operations
 
-- **Language**: TypeScript
-- **Backend Framework**: Express.js
-- **Database**: PostgreSQL
-- **ORM**: Prisma
-- **Authentication**: JWT, Bcrypt
-- **Wallet Validation**: ethers.js
-- **Testing**: Jest, Supertest
+## Features
 
-## 🛠 Prerequisites
+- **Vendor Registration**: Handles dynamic, type-specific registration flows for all vendor types (Agent, Broker, Foreign Vendor, etc).
+- **Document Management**: Secure upload, validation, and preview of required documents.
+- **Approval Workflow**: Automated status tracking, notifications, and multi-level approvals.
+- **Integration with F&O**: Reads/writes company, tax, and vendor data from/to Microsoft Dynamics 365.
+- **Dynamic Form Logic**: Renders forms and required fields dynamically based on vendor type.
+- **Notifications**: Email notifications for invitations, submission, approval, or rejection.
+- **Audit Trails & Compliance**: Ensures every action is logged and all data is validated for compliance.
 
-- Node.js (v18+)
-- PostgreSQL (v13+)
-- npm or yarn
-- Docker (optional)
+## Architecture
 
-## 🔧 Installation
+- **Backend Framework**: [NestJS](https://nestjs.com/) (Node.js, TypeScript)
+- **API Layer**: RESTful endpoints documented with OpenAPI (Swagger)
+- **External Integrations**: Microsoft Dynamics 365 F&O, Email (for notifications)
+- **Authentication**: OAuth2.0 via Azure AD (Bearer Token)
+- **Modules**:
+  - `auth/`: Authentication and token management
+  - `vendors/`: Vendor registration, listing, approval
+  - `taxes/`: Tax authorities, groups, and validation
+  - `payments/`: Payment terms and methods
+  - `location/`: Countries, states, cities, counties
+  - `data-entities/`: Company and entity metadata
 
-1. Clone the repository:
+## Getting Started
 
-```bash
-git clone https://github.com/AURORALAOrg/AURORA-Backend.git
-cd AURORA-Backend
-```
+### Prerequisites
 
-2. Install dependencies:
+- Node.js v16+ and npm
+- Access to Microsoft Azure AD (for OAuth2 token)
+- Microsoft Dynamics 365 F&O sandbox credentials
 
-```bash
+### Installation
+
+````bash
+# Clone the repository
+git clone https://github.com/LeadwayGroup/VendorOnboarding_API.git
+cd VendorOnboarding_API
+
+# Install dependencies
 npm install
-```
-
-## 📝 Configuration
 
 ### Environment Variables
 
-Create a `.env` file in the project root with the following variables:
+```bash
+cp .env.example .env
 
-```env
-# Database Configuration
-DATABASE_URL="postgresql://username:password@localhost:5432/aurora_db?schema=public"
+**.env example:**
+```dotenv
+Base_Url= # Dynamics 365 F&O Base URL
+Token_Url= # Azure AD Token URL
+Client_Id= # Azure client ID
+Client_Secret= # Azure client secret
+Tenant_Id= # Azure tenant ID
+Resource= # F&O Resource URI
+Scope=
+Grant_Type=client_credentials
+PORT=3000
 
-# Authentication
-JWT_SECRET=your_secure_jwt_secret
-JWT_EXPIRATION=1d
-BCRYPT_SALT_ROUNDS=10
+## Running the Application
 
-# Email Configuration
-EMAIL_HOST=smtp.example.com
-EMAIL_PORT=587
-EMAIL_USER=your_email@example.com
-EMAIL_PASS=your_email_password
+**Development:**
+```bash
+npm run start:dev
 
-# Application Settings
-APP_PORT=3000
+**Production:**
 
-# A .env.example file contain all the keys and some of the values mentioned above
+```bash
+npm run start:prod
+
+**Accessing the API:**
+
+- By default, the server runs on `http://localhost:3000`
+
+## API Documentation (OpenAPI/Swagger)
+
+**Swagger UI:**
+The API is fully documented using the OpenAPI (Swagger) standard.
+
+- When running locally, access:
+
+  - [http://localhost:3000/api/docs](http://localhost:3000/api/docs)
+
+## Business Logic & Workflows
+
+### Vendor Onboarding Flow
+
+1. **Initiation:**
+   Vendor receives email invite → clicks link → lands on registration page.
+
+2. **Identification:**
+
+   - Selects company and vendor type (options: Agent, Broker, Co-Insurance, etc)
+   - Fills in dynamic, type-specific form fields (company info, tax, bank, etc)
+   - State & tax authorities are dynamically filtered
+
+3. **Documentation:**
+
+   - Uploads required files (CAC Certificate, Staff ID, etc)
+   - Files validated for type (PDF/JPEG) and size (max 5MB)
+
+4. **Preview & Submission:**
+
+   - Vendor previews all data and documents
+   - Edits if needed; submits final application
+
+5. **Approval Workflow:**
+   - Status changes to "Pending Review"
+   - Procurement team notified
+   - Vendor receives email on approval or rejection
+
+**See [FRD](docs/FRD.md) for full functional requirements.**
+
+## Example API Endpoints
+
+### Authentication
+
+```http
+POST /oauth2/token
+- Obtain bearer token using client credentials
+
+### Companies
+
+```http
+GET /data/Companies
+
+- List all companies
+
+### Tax Authorities
+
+```http
+GET /data/TaxAuthorities?cross-company=true&$filter=dataAreaId eq '001'
+
+- List tax authorities for a company
+
+### Vendors
+
+```http
+GET /data/Vendors
+POST /data/Vendors
+
+- List or create vendors
+
+### Locations
+
+http
+GET /data/AddressCountryRegionTranslations?$filter=LanguageId eq 'en-US'
+GET /data/AddressStates?$filter=CountryRegionId eq 'NGA'
+GET /data/AddressCounties?$filter=CountryRegionId eq 'NGA' and StateId eq 'Lagos'
 ```
 
-## 💾 Database Setup (GUI)
+- Get countries, states, counties (dynamic filtering)
 
-Install Postgres
-Download and install Postgres from: <https://www.postgresql.org/download/>
+**See full details in the [Postman Collection](docs/postman_collection.json) or [Swagger UI](#api-documentation-openapiswagger).**
 
-## 🛠️ Setting up the Database in pgAdmin
+## Testing
 
-### Launch pgAdmin
+Run all tests:
 
-```app
-Open the pgAdmin application on your computer.
-Log in with your PostgreSQL credentials (default username: postgres).
-```
+```bash
+npm run test
 
-### Connect to a Server
 
-```pgAdmin
-In the left sidebar, locate Servers.
-Right-click on "Servers" and choose Create > Server.
+End-to-end tests:
 
-```
+```bash
+npm run test:e2e
 
-```Fill out the following
 
-## General tab
-- Enter a name for the server (e.g., MyDBServer).
+Test coverage:
 
-## Connection tab
-- Host: localhost (or your server’s IP address).
-- Port: 5432 (default PostgreSQL port).
-- Username: postgres.
-- Password: Your PostgreSQL password.
-- Click Save to establish the connection.
+```bash
+npm run test:cov
 
-```
+## Deployment
 
-## Create a New Database
-
-```pgAdmin
-- Expand the connected server in the left sidebar.
-- Right-click on Databases and select Create > Database.
-- Enter the database name (e.g., aurora_db).
-- Leave the other settings as default and click Save.
-```
-
-## 🔨 Create Tables in pgAdmin with SQL Query Tool
-
-1. Open the SQL Query Tool
-
-   ```pgAdmin
-   - Expand the server and database you created.
-   - Right-click on your database (e.g., aurora_db) and select Query Tool.
+1. **Production configuration:**
+   - Set all env variables for prod environment
+2. **Build and start:**
+   ```bash
+   npm run build
+   npm run start:prod
    ```
+3. **Cloud/Container:**
+   - Optionally, containerize with Docker
+   - Deploy to AWS, Azure, or your preferred platform
 
-2. Run SQL COMMAND
+**See [NestJS deployment docs](https://docs.nestjs.com/deployment) for more details.**
 
-   ```pgAdmin
-    CREATE TABLE user(
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(150) UNIQUE NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    )
+## Contributing
 
-    Or Copy and paste from the prisma Schema models one model at a time then press f5 to execute.
-   ```
+- Fork the repo & clone locally
+- Create a feature branch (`git checkout -b feature/my-feature`)
+- Commit your changes (`git commit -m "feat: my new feature"`)
+- Push to your fork & open a pull request
 
-## 🧪 Verify Your Setup
+**Coding Standards:**
 
-```pgAdmin
-- List all tables:
-- Navigate to Schemas > Public > Tables to view your tables.
-- View table contents:
-- Right-click on a table (e.g., users) and choose View/Edit Data > All Rows.
-```
+- Use TypeScript & NestJS best practices
+- Write tests for new features
+- Follow commit message conventions
 
-## 💾 Database Setup (CLI)
+## Troubleshooting
 
-### Option 1: Local PostgreSQL
+- **Auth errors:**
+  - Double-check your Azure credentials and OAuth2 setup.
+- **Dynamics 365 API errors:**
+  - Ensure your token is valid and you have correct permissions.
+- **Environment variables:**
+  - Use `.env.example` as a template and verify all required fields.
 
-1. Create the database:
+## License
 
-```bash
-createdb aurora_db
-```
+MIT License. See [LICENSE](LICENSE) for details.
 
-### Option 2: Docker (Recommended)
+## Contact
 
-1. Start PostgreSQL container:
-
-```bash
-docker run --name aurora-postgres \
-  -e POSTGRES_PASSWORD=your_password \
-  -p 5432:5432 \
-  -d postgres
-```
-
-2. Create the database:
-
-```bash
-docker exec -it aurora-postgres psql -U postgres -c "CREATE DATABASE aurora_db;"
-```
-
-### Database Migrations
-
-1. Generate Prisma Client:
-
-```bash
-npx prisma generate
-```
-
-2. Run Migrations:
-
-```bash
-npx prisma migrate dev --name init
-```
-
-## 🚀 Running the Application
-
-### Development Mode
-
-```bash
-npm run dev
-```
-
-### Production Build
-
-```bash
-npm run build
-npm start
-```
-
-## 🧪 Testing
-
-### Run Tests
-
-```bash
-npm test
-```
-
-### Run Tests with Coverage
-
-```bash
-npm run test:coverage
-```
-
-## 🔒 Security Features
-
-- Password hashing with bcrypt
-- JWT-based authentication
-- Email verification
-- Wallet address validation
-- Custom error handling middleware
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## 📞 Contact
-
-Project Link: [https://github.com/AURORALAOrg/AURORA-Backend](https://github.com/AURORALAOrg/AURORA-Backend)
+- **Author:** Popoola Michael Iyanuoluwapo
+- **Organization:** Leadway Group
+- **Support:** [NestJS Discord](https://discord.gg/G7Qnnhy)
+- **Project Maintainer:** [Abtechh](https://github.com/Abtechh)
+````

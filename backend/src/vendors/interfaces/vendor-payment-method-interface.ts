@@ -1,0 +1,59 @@
+export interface VendorPaymentMethod {
+  Description: string;
+  dataAreaId: string;
+  Name: string;
+  LastFileDate: string;
+  ValidateCheckNumberIsMandatory: string;
+  CreateAndDrawPromissoryNoteDuringInvoicePosting: string;
+  ElectronicReportingSolution: string;
+  LocalInstrument: number;
+  PaymentStatus: string;
+  AttributePaymentIdEnabled: string;
+  ValidatePaymentReferenceIsMandatory: string;
+  PaymentAccountDisplayValue: string;
+  DimensionControl: string;
+  ElectronicReportingVendor: string;
+  ServiceLevel: number;
+  ValidatePaymentIdIsMandatory: string;
+  PromissoryNoteDraftType: string;
+  ValidatePaymentSpecificationIsMandatory: string;
+  SATPaymentType: null;
+  SumByPeriod: string;
+  ValidateOffsetTransactionTypeIsBank: string;
+  SPEDPrimaryPaymentMethod: string;
+  AttributeBelgianStructuredPaymentIdEnabled: string;
+  SPEDPrimaryPaymentMethodDescription: string;
+  ReturnLayoutGroupId: string;
+  PaymentJournalName: string;
+  ChargeBearerValue: string;
+  ExportLayoutGroupId: string;
+  ERFormatMapping: string;
+  EnablePostdatedCheckClearingPosting: string;
+  ValidatePaymentNoteIsMandatory: string;
+  BridgingPostingEnabled: string;
+  RemittanceFormatClassName: string;
+  BankTransactionType: string;
+  ValidateTransactionTypeIsBank: string;
+  GeneratePaymentOneVoucher: string;
+  CategoryPurpose: number;
+  DiscountGracePeriodDays: number;
+  ReturnFormatClassName: string;
+  LastFileNumberToday: number;
+  AllowPaymentCopies: string;
+  PaymentType: string;
+  ExportFormatClassName: string;
+  AccountType: string;
+  AttributeThirdPartyBankEnabled: string;
+  AttributePaymentAccountEnabled: string;
+  BridgingPostingAccountDisplayValue: string;
+  UseGERConfiguration: string;
+  ExportPromissoryNoteDuringInvoicePosting: string;
+  LastFileNumber: number;
+  DirectDebit: string;
+  DimensionAttributeDisplayValue: string;
+  PostingProfileRemitNotes: string;
+}
+
+export interface VendorPaymentMethodResponse {
+  value: VendorPaymentMethod[];
+}
